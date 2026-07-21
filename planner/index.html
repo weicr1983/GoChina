@@ -81,7 +81,7 @@
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--sp-5);margin-top:var(--sp-4);">
           <div>
-            <label class="form__label" data-i18n="planner.hoursLabel">Visa-free hours</label>
+            <label class="form-label" data-i18n="planner.hoursLabel">Visa-free hours</label>
             <div class="chip-group" role="radiogroup" aria-label="Visa hours">
               <label class="chip"><input type="radio" name="hours" value="144" checked> <span data-i18n="planner.hours144">144 hours (6 days)</span></label>
               <label class="chip"><input type="radio" name="hours" value="240">    <span data-i18n="planner.hours240">240 hours (10 days)</span></label>
@@ -89,14 +89,14 @@
           </div>
 
           <div>
-            <label class="form__label" for="in-travellers" data-i18n="planner.travellersLabel">Travelers</label>
-            <input id="in-travellers" name="travellers" type="range" min="1" max="8" step="1" value="2" class="form__range">
-            <div class="form__range-val"><span id="val-travellers">2</span></div>
+            <label class="form-label" for="in-travellers" data-i18n="planner.travellersLabel">Travelers</label>
+            <input id="in-travellers" name="travellers" type="range" min="1" max="8" step="1" value="2" class="form-range">
+            <div class="form-range-val"><span id="val-travellers">2</span></div>
           </div>
 
           <div>
-            <label class="form__label" for="in-hotel" data-i18n="planner.hotelLabel">Hotel tier</label>
-            <select id="in-hotel" name="hotelTier" class="form__select">
+            <label class="form-label" for="in-hotel" data-i18n="planner.hotelLabel">Hotel tier</label>
+            <select id="in-hotel" name="hotelTier" class="form-select">
               <option value="budget">Budget</option>
               <option value="mid" selected>Mid-range</option>
               <option value="luxury">Luxury</option>
@@ -123,16 +123,16 @@
         <legend style="font-family:var(--font-display);font-size:var(--fs-lg);padding:0 var(--sp-2);" data-i18n="planner.step3">3. Your trip</legend>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-4);margin-top:var(--sp-4);">
           <div>
-            <label class="form__label" for="in-food">Food level</label>
-            <select id="in-food" name="foodTier" class="form__select">
+            <label class="form-label" for="in-food">Food level</label>
+            <select id="in-food" name="foodTier" class="form-select">
               <option value="budget">Street food &amp; casual</option>
               <option value="mid" selected>Mixed</option>
               <option value="luxury">Fine dining</option>
             </select>
           </div>
           <div>
-            <label class="form__label" for="in-transport">Local transport</label>
-            <select id="in-transport" name="transport" class="form__select">
+            <label class="form-label" for="in-transport">Local transport</label>
+            <select id="in-transport" name="transport" class="form-select">
               <option value="metro" selected>Metro + walking</option>
               <option value="mixed">Metro + occasional taxi</option>
               <option value="taxi">Mostly DiDi / taxi</option>
