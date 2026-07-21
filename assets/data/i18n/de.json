@@ -1,0 +1,356 @@
+{
+  "site": {
+    "name": "GoChina Reise",
+    "tagline": "Planen Sie Ihre China-Reise mit 144/240h visumfrei"
+  },
+  "nav": {
+    "visa": "Visum",
+    "calculator": "Budget",
+    "planner": "Planer",
+    "payment": "Zahlung",
+    "transport": "Transport",
+    "cities": "Städte",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "eyebrow": "144/240 Stunden visumfrei nach China",
+    "heroTitle": "China erreichen.<br/>Plan in <em>10 Minuten</em>.",
+    "heroSubtitle": "Alle Antworten zu Einreise, Bezahlung, Fortbewegung und Kosten — für Reisende mit dem neuen Transitvisum-frei-Programm.",
+    "heroCta": "Planung starten",
+    "heroCtaSecondary": "Visumsregeln",
+    "painPoints": {
+      "title": "Die 4 Fragen jedes Reisenden",
+      "subtitle": "Wir bauen Werkzeuge, keine Artikel. Schieben Sie die Regler.",
+      "items": [
+        {
+          "icon": "plane",
+          "title": "How do I enter?",
+          "text": "144 or 240 hour visa-free at 20+ airports. See eligible ports and required documents."
+        },
+        {
+          "icon": "card",
+          "title": "How do I pay?",
+          "text": "Bind your Visa or Mastercard to Alipay / WeChat Pay in 5 minutes. Cash and ATMs also work."
+        },
+        {
+          "icon": "train",
+          "title": "How do I move?",
+          "text": "High-speed rail, metro, DiDi ride-hailing, bike-share — all foreigner-friendly."
+        },
+        {
+          "icon": "wallet",
+          "title": "How much does it cost?",
+          "text": "Itemized budget calculator with per-city breakdown in USD and CNY."
+        }
+      ]
+    },
+    "policyCard": {
+      "title": "Visumfrei auf einen Blick",
+      "subtitle": "Wählen Sie nach Dauer und Reichweite.",
+      "card144": {
+        "label": "144 Stunden",
+        "days": "6 Tage",
+        "text": "In einer Region. Einfacher und schneller."
+      },
+      "card240": {
+        "label": "240 Stunden",
+        "days": "10 Tage",
+        "text": "Mehr Provinzen, ideal für mehrere Städte."
+      }
+    },
+    "toolsCard": {
+      "title": "Werkzeuge",
+      "budget": {
+        "title": "Budgetrechner",
+        "text": "Aufschlüsselung pro Stadt in Sekunden. Teilbare URL."
+      },
+      "planner": {
+        "title": "Routenplaner",
+        "text": "Stunden + Interessen = eine Route."
+      }
+    },
+    "citiesCard": {
+      "title": "Starten Sie mit einer Stadt",
+      "items": [
+        {
+          "name": "Shanghai",
+          "tag": "Future skyline, dumplings, the Bund"
+        },
+        {
+          "name": "Beijing",
+          "tag": "Forbidden City, Great Wall, hutongs"
+        },
+        {
+          "name": "Chengdu",
+          "tag": "Pandas, Sichuan food, slow pace"
+        },
+        {
+          "name": "Xi'an",
+          "tag": "Terracotta Warriors, Silk Road"
+        }
+      ]
+    }
+  },
+  "visa": {
+    "title": "144 vs 240 Stunden visumfrei",
+    "subtitle": "Beide Programme erlauben visumfreie Einreise. Der Unterschied: Dauer und Reichweite.",
+    "compareTitle": "Vergleich",
+    "eligiblePorts": "Zugelassene Häfen",
+    "regions": "Abgedeckte Regionen",
+    "docs": "Erforderliche Dokumente",
+    "applyTitle": "Am Flughafen beantragen",
+    "applySteps": [
+      "Arrive at an eligible international airport with your passport, onward ticket, and (if needed) a visa for your third destination.",
+      "At the transit counter, request the 144 / 240-hour visa-free transit permit. Border officers verify your documents in 5–15 minutes.",
+      "Collect your permit and enter China. Keep the paper permit with you throughout your stay — hotels will request it at check-in."
+    ],
+    "tipsTitle": "Praktische Tipps",
+    "tips": [
+      "Departure must be from the same or an eligible port in the same region.",
+      "Your onward ticket must go to a third country / region, not back to your origin.",
+      "Hotel staff are required to register foreign guests — carry your passport at all times.",
+      "If you enter under 240h, you can now move between many adjacent provinces."
+    ]
+  },
+  "calculator": {
+    "title": "Reise-Budgetrechner",
+    "subtitle": "Regler anpassen, Summe aktualisiert sich sofort. URL teilen.",
+    "days": "Tage in China",
+    "cities": "Städte",
+    "travellers": "Reisende",
+    "hotel": "Hotel-Niveau",
+    "food": "Essens-Niveau",
+    "transport": "Lokalverkehr",
+    "attr": "Kostenpflichtige Orte/Stadt",
+    "shop": "Shopping (USD/Person)",
+    "other": "Sonstiges (SIM, Trinkgeld)",
+    "rail": "Hochgeschwindigkeitszug zwischen Städten",
+    "total": "Geschätzte Gesamtsumme",
+    "perCity": "Pro Stadt",
+    "breakdown": "Aufschlüsselung",
+    "lines": {
+      "hotel": "Hotels",
+      "food": "Food & dining",
+      "transport": "Local transport",
+      "attraction": "Attractions",
+      "intercity": "High-speed rail",
+      "shopping": "Shopping",
+      "other": "Other"
+    },
+    "print": "Drucken",
+    "reset": "Zurücksetzen",
+    "note": "Schätzung nach Booking/Trip.com 2025-2026 Mittelwerten. Saisonale Schwankungen möglich — nur als Ausgangspunkt."
+  },
+  "planner": {
+    "title": "Routenplaner",
+    "subtitle": "Wählen Sie Visumstunden und Interessen. Erhalten Sie eine Route mit Tageskarten und Budgetschätzung — direkt im Rechner öffnen.",
+    "step1": "1. Visum & Gruppe",
+    "step2": "2. Interessen",
+    "step3": "3. Reise",
+    "hoursLabel": "Visumfreie Stunden",
+    "hours144": "144 Stunden (6 Tage)",
+    "hours240": "240 Stunden (10 Tage)",
+    "travellersLabel": "Reisende",
+    "hotelLabel": "Hotel-Niveau",
+    "interestsLabel": "Was mögen Sie?",
+    "interests": {
+      "history": "Geschichte & Kaiserstätten",
+      "food": "Essen & lokale Küche",
+      "nature": "Natur & Pandas",
+      "modern": "Moderne Skyline & Nachtleben",
+      "family": "Familie & kinderfreundlich"
+    },
+    "generate": "Reise erstellen",
+    "regenerate": "Erneut versuchen",
+    "openInCalc": "Im Budgetrechner öffnen",
+    "resultTitle": "Ihre Reise",
+    "totalDays": "Tage",
+    "estCost": "Geschätzte Gesamtsumme",
+    "perDay": "Tag",
+    "cityVisited": "Städte",
+    "noMatch": "Keine passenden Städte. Versuchen Sie 240h oder fügen Sie ein Interesse hinzu.",
+    "visaNote144": "Bei 144h Einreise nur über Peking, Shanghai oder Guangzhou, in der jeweiligen Region.",
+    "visaNote240": "Bei 240h Einreise über 16+ Häfen, Reisen durch die meisten Provinzen.",
+    "dayLabel": "Tag {n}",
+    "addToCalc": "Zum Rechner",
+    "disclaimer": "Vorgeschlagene Route auf Basis Ihrer Eingaben. Zeiten und Preise variieren — vor Buchung bestätigen."
+  },
+  "payment": {
+    "title": "In 5 Minuten wie die Einheimischen zahlen",
+    "subtitle": "Größte Änderung für ausländische Besucher seit 2024: Visa/Mastercard an Alipay und WeChat Pay bindbar. Bargeld, ATM und Karten funktionieren weiterhin.",
+    "methods": [
+      {
+        "name": "Alipay (支付宝)",
+        "tag": "Recommended",
+        "summary": "Bind your Visa / Mastercard / Amex / JCB in the app. Works at virtually every shop, restaurant, metro, taxi, and attraction in China.",
+        "steps": [
+          "Download Alipay (search 'Alipay' in your app store, or use the international version).",
+          "Open the app, tap 'Services' or 'Me → Bank Cards / Add Card'.",
+          "Enter your card details. Alipay verifies with a small charge (~$0.50) that refunds in 1–3 days.",
+          "Set a 6-digit payment password. You're done — start scanning merchant QR codes."
+        ],
+        "limits": "Single transaction: ~$1,000 (without extra verification). Annual: $50,000. Above that, upload a passport photo to raise limits.",
+        "fee": "No fee from Alipay. Your bank may charge a 1–3% foreign transaction fee."
+      },
+      {
+        "name": "WeChat Pay (微信支付)",
+        "tag": "Also recommended",
+        "summary": "Same flow as Alipay, integrated inside WeChat. Many Chinese merchants prefer it, and you'll need it for in-person social situations.",
+        "steps": [
+          "Open WeChat → Me → Services → Wallet → Bank Cards.",
+          "Add a Visa / Mastercard. Verification takes under 2 minutes.",
+          "Set payment password. Pay by scanning or showing your QR code to be scanned."
+        ],
+        "limits": "Similar to Alipay. Limits raise after passport upload.",
+        "fee": "1–3% foreign transaction fee from your card issuer."
+      },
+      {
+        "name": "Cash (RMB)",
+        "tag": "Still works",
+        "summary": "Carry small amounts (¥200–500) for street food, rural areas, or as a backup. Note that some small vendors no longer accept cash.",
+        "steps": [
+          "Withdraw from any major bank ATM using Visa / Mastercard / UnionPay / Cirrus / Plus.",
+          "Bank of China, ICBC, and China Construction Bank ATMs have English menus.",
+          "Daily ATM limit: ¥2,500 per card. Per-transaction fee: typically ¥10–30 + your bank's foreign fee."
+        ],
+        "limits": "None, beyond ATM caps.",
+        "fee": "¥10–30 domestic fee + 1–3% from your card issuer."
+      },
+      {
+        "name": "Bank card (Visa / Mastercard)",
+        "tag": "Variable",
+        "summary": "Hotels, large restaurants, and most big-box stores accept foreign cards. Smaller shops, taxis, and street vendors usually do not.",
+        "steps": [
+          "Always carry a backup Visa or Mastercard.",
+          "Notify your bank of travel to avoid anti-fraud blocks.",
+          "Expect 1–3% foreign transaction fee on every charge."
+        ],
+        "limits": "Depends on your bank.",
+        "fee": "1–3% foreign transaction fee."
+      }
+    ],
+    "tipTitle": "Zwei Tipps, die wirklich Geld sparen",
+    "tips": [
+      "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
+      "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
+    ]
+  },
+  "transport": {
+    "title": "Unterwegs in China",
+    "subtitle": "Öffentliche Verkehrsmittel sind schnell, günstig, ausländerfreundlich und brauchen keine chinesische Nummer.",
+    "modes": [
+      {
+        "name": "High-speed rail (高铁)",
+        "icon": "train",
+        "summary": "The backbone of intercity travel. Up to 350 km/h, English announcements, e-tickets via passport — no paper ticket needed.",
+        "booking": [
+          "Book on 12306.cn (English version) or via the Trip.com app. Avoid third-party resellers charging extra.",
+          "Enter your passport number exactly as printed. The name must match.",
+          "At the station, scan your passport at the gate — no paper ticket. Foreign passports are accepted at all major stations."
+        ],
+        "apps": "12306 (official), Trip.com",
+        "payment": "Alipay, WeChat Pay, or Visa / Mastercard via 12306"
+      },
+      {
+        "name": "Metro (地铁)",
+        "icon": "metro",
+        "summary": "In every major city. Signs are bilingual (Chinese + English). Single-journey tickets from machines; daily caps apply.",
+        "booking": [
+          "Buy a single ticket from the green vending machines (English menu available). Pay cash or scan Alipay / WeChat at the QR reader.",
+          "For multi-day stays, buy a rechargeable transport card at the service counter (e.g. Shanghai Public Transportation Card, Beijing Yikatong).",
+          "Tap in and tap out. Daily cap means you never pay more than ~¥18/day in any city."
+        ],
+        "apps": "Each city has its own metro app, but Alipay's 'Metro' mini-program covers all major cities.",
+        "payment": "Cash, Alipay, WeChat Pay, or transport card"
+      },
+      {
+        "name": "DiDi (滴滴)",
+        "icon": "car",
+        "summary": "China's Uber. Set pickup, see fare estimate, pay in-app. Works without a Chinese phone number if you bind a Visa / Mastercard.",
+        "booking": [
+          "Download DiDi from the App Store or Google Play.",
+          "Sign up with your foreign phone number (Gmail works for email).",
+          "Add a Visa or Mastercard to the wallet.",
+          "Type destination in English — the driver sees it in Chinese. Use the in-app chat for clarification."
+        ],
+        "apps": "DiDi (international version)",
+        "payment": "Visa, Mastercard, Alipay, WeChat Pay"
+      },
+      {
+        "name": "Bike-share (共享单车)",
+        "icon": "bike",
+        "summary": "Yellow Meituan and blue HelloRide bikes are everywhere. Scan the QR code with Alipay — no app install needed.",
+        "booking": [
+          "Open Alipay, tap 'Scan', and point at the bike's QR code.",
+          "First ride: ¥1.5 ($0.20) for 30 min. After: ¥1.5 per 30 min.",
+          "Park anywhere on a sidewalk, ending the ride in the app."
+        ],
+        "apps": "Meituan, HelloRide, or just Alipay mini-program",
+        "payment": "Alipay, WeChat Pay"
+      },
+      {
+        "name": "Taxi (出租车)",
+        "icon": "taxi",
+        "summary": "Metered, cheap by Western standards, but cash-only. Useful when DiDi can't find a driver.",
+        "booking": [
+          "Flag a green or red-and-green taxi on the street, or queue at a hotel / station taxi stand.",
+          "Show the driver your destination in Chinese characters (use a translation app or a screenshot).",
+          "Pay in cash or ask to scan a QR code (most modern taxis accept Alipay / WeChat).",
+          "Tip: not expected. Round up if you like."
+        ],
+        "apps": "DiDi",
+        "payment": "Cash, Alipay, WeChat Pay"
+      }
+    ],
+    "appsTitle": "Vor dem Flug installieren",
+    "apps": [
+      {
+        "name": "Alipay",
+        "why": "Pays everywhere. Also unlocks bike-share, metro, DiDi."
+      },
+      {
+        "name": "WeChat",
+        "why": "Pays + communicates. Hotels and many small shops prefer it."
+      },
+      {
+        "name": "DiDi",
+        "why": "Ride-hailing in every city."
+      },
+      {
+        "name": "Trip.com",
+        "why": "Easiest 12306 booking for foreigners. English. Visa / Mastercard."
+      },
+      {
+        "name": "Maps.me or Amap",
+        "why": "Amap (高德地图) is best in China. Maps.me works offline for cities you've pre-downloaded."
+      },
+      {
+        "name": "Pleco",
+        "why": "Best Chinese dictionary. Offline. Camera-OCR for menus and signs."
+      }
+    ],
+    "connectivityTitle": "Internet & SIM",
+    "connectivity": [
+      "China blocks Google, Instagram, WhatsApp, Facebook, X, Reddit, most news sites, and many VPNs. Plan ahead.",
+      "Buy a SIM at the airport on arrival: China Unicom has the best international roaming. Or rent a pocket WiFi at the airport for ~¥30/day.",
+      "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
+      "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
+    ]
+  },
+  "footer": {
+    "desc": "Ein unabhängiger, werbefinanzierter Reiseführer für Transit-Reisende. Keine Touren, keine Provision.",
+    "explore": "Erkunden",
+    "legal": "Rechtliches",
+    "company": "Unternehmen",
+    "copyright": "© {year} GoChina Reise. Alle Rechte vorbehalten.",
+    "disclosure": "Diese Seite zeigt Anzeigen über Google AdSense. Einige Links können Affiliate-Links sein."
+  },
+  "consent": {
+    "text": "Wir verwenden Cookies für Analyse und Werbung. Alles akzeptieren, nur Analyse oder nur Notwendiges.",
+    "ariaAcceptAll": "Alles akzeptieren",
+    "ariaAnalytics": "Nur Analyse",
+    "ariaEssential": "Nur Notwendiges",
+    "policy": "Datenschutzerklärung"
+  }
+}

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>China Trip Planner — 144 / 240-hour visa-free route builder — GoChina Trip</title>
+  <meta name="description" content="Pick your visa hours and interests. Get a multi-city itinerary with per-city day cards, HSR transit times, and an estimated budget that opens straight in the calculator.">
+  <meta name="theme-color" content="#0F1115">
+  <link rel="canonical" href="https://gochinatrip.com/planner/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C03B2B'/%3E%3Cpath d='M6 22L16 8L26 22Z' fill='%23F5F0E6'/%3E%3C/svg%3E">
+  <link rel="alternate" hreflang="en" href="https://gochinatrip.com/planner/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/background.css">
+  <link rel="stylesheet" href="../assets/css/calculator.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "China Trip Planner",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="../">
+        <span class="nav__brand-mark" aria-hidden="true"></span>
+        <span>GoChina</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="../visa/"       data-i18n="nav.visa">Visa</a>
+        <a class="nav__link" href="../calculator/" data-i18n="nav.calculator">Budget</a>
+        <a class="nav__link" href="../planner/"    aria-current="page" data-i18n="nav.planner">Planner</a>
+        <a class="nav__link" href="../payment/"    data-i18n="nav.payment">Payment</a>
+        <a class="nav__link" href="../transport/"  data-i18n="nav.transport">Transport</a>
+        <a class="nav__link" href="../cities/beijing/" data-i18n="nav.cities">Cities</a>
+      </nav>
+      <div class="nav__cta">
+        <span data-lang-root></span>
+        <button class="nav__burger" type="button" aria-label="Menu" aria-expanded="false" data-nav-burger>
+          <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="nav__mobile" data-nav-mobile>
+        <a href="../visa/"       data-i18n="nav.visa">Visa</a>
+        <a href="../calculator/" data-i18n="nav.calculator">Budget</a>
+        <a href="../planner/"    data-i18n="nav.planner">Planner</a>
+        <a href="../payment/"    data-i18n="nav.payment">Payment</a>
+        <a href="../transport/"  data-i18n="nav.transport">Transport</a>
+        <a href="../cities/beijing/" data-i18n="nav.cities">Cities</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+    <header style="max-width:760px;margin:0 auto var(--sp-10);text-align:center;">
+      <span class="eyebrow">Planner</span>
+      <h1 data-i18n="planner.title">Itinerary planner</h1>
+      <p class="text-mute-2" style="margin-top:var(--sp-4);font-size:var(--fs-md);" data-i18n="planner.subtitle">Pick your visa hours and interests. Get a city route with daily cards and an estimated budget — open it in the calculator for the full breakdown.</p>
+    </header>
+
+    <form id="planner-form" style="display:grid;grid-template-columns:1fr;gap:var(--sp-6);max-width:920px;margin:0 auto;">
+
+      <!-- Step 1 -->
+      <fieldset class="card" data-reveal>
+        <legend style="font-family:var(--font-display);font-size:var(--fs-lg);padding:0 var(--sp-2);" data-i18n="planner.step1">1. Your visa &amp; group</legend>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--sp-5);margin-top:var(--sp-4);">
+          <div>
+            <label class="form__label" data-i18n="planner.hoursLabel">Visa-free hours</label>
+            <div class="chip-group" role="radiogroup" aria-label="Visa hours">
+              <label class="chip"><input type="radio" name="hours" value="144" checked> <span data-i18n="planner.hours144">144 hours (6 days)</span></label>
+              <label class="chip"><input type="radio" name="hours" value="240">    <span data-i18n="planner.hours240">240 hours (10 days)</span></label>
+            </div>
+          </div>
+
+          <div>
+            <label class="form__label" for="in-travellers" data-i18n="planner.travellersLabel">Travelers</label>
+            <input id="in-travellers" name="travellers" type="range" min="1" max="8" step="1" value="2" class="form__range">
+            <div class="form__range-val"><span id="val-travellers">2</span></div>
+          </div>
+
+          <div>
+            <label class="form__label" for="in-hotel" data-i18n="planner.hotelLabel">Hotel tier</label>
+            <select id="in-hotel" name="hotelTier" class="form__select">
+              <option value="budget">Budget</option>
+              <option value="mid" selected>Mid-range</option>
+              <option value="luxury">Luxury</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Step 2 -->
+      <fieldset class="card" data-reveal>
+        <legend style="font-family:var(--font-display);font-size:var(--fs-lg);padding:0 var(--sp-2);" data-i18n="planner.step2">2. Your interests</legend>
+        <p class="text-mute-2" style="margin-top:var(--sp-3);font-size:var(--fs-sm);" data-i18n="planner.interestsLabel">What do you love?</p>
+        <div class="chip-group" role="group" aria-label="Interests" style="margin-top:var(--sp-4);">
+          <label class="chip"><input type="checkbox" name="interest" value="history" checked> <span data-i18n="planner.interests.history">History &amp; imperial sites</span></label>
+          <label class="chip"><input type="checkbox" name="interest" value="food" checked>    <span data-i18n="planner.interests.food">Food &amp; local cuisine</span></label>
+          <label class="chip"><input type="checkbox" name="interest" value="nature">          <span data-i18n="planner.interests.nature">Nature &amp; pandas</span></label>
+          <label class="chip"><input type="checkbox" name="interest" value="modern">         <span data-i18n="planner.interests.modern">Modern skyline &amp; nightlife</span></label>
+          <label class="chip"><input type="checkbox" name="interest" value="family">         <span data-i18n="planner.interests.family">Family &amp; kid-friendly</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Step 3 -->
+      <fieldset class="card" data-reveal>
+        <legend style="font-family:var(--font-display);font-size:var(--fs-lg);padding:0 var(--sp-2);" data-i18n="planner.step3">3. Your trip</legend>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-4);margin-top:var(--sp-4);">
+          <div>
+            <label class="form__label" for="in-food">Food level</label>
+            <select id="in-food" name="foodTier" class="form__select">
+              <option value="budget">Street food &amp; casual</option>
+              <option value="mid" selected>Mixed</option>
+              <option value="luxury">Fine dining</option>
+            </select>
+          </div>
+          <div>
+            <label class="form__label" for="in-transport">Local transport</label>
+            <select id="in-transport" name="transport" class="form__select">
+              <option value="metro" selected>Metro + walking</option>
+              <option value="mixed">Metro + occasional taxi</option>
+              <option value="taxi">Mostly DiDi / taxi</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top:var(--sp-5);display:flex;gap:var(--sp-3);flex-wrap:wrap;">
+          <button type="submit" class="btn btn--primary" data-i18n="planner.generate">Build my trip</button>
+          <button type="button" id="planner-regenerate" class="btn btn--ghost" data-i18n="planner.regenerate">Try again</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <div id="planner-result" style="display:none;max-width:920px;margin:var(--sp-12) auto 0;"></div>
+
+    <div class="ad-slot" style="margin-block:var(--sp-10);">Advertisement</div>
+
+    <section style="text-align:center;margin-top:var(--sp-12);" data-reveal>
+      <h2>Want the full cost breakdown?</h2>
+      <p class="text-mute-2" style="margin-top:var(--sp-3);">The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.</p>
+      <div style="margin-top:var(--sp-5);display:flex;gap:var(--sp-3);justify-content:center;flex-wrap:wrap;">
+        <a class="btn btn--primary" href="../calculator/">Open budget calculator</a>
+        <a class="btn btn--ghost"   href="../visa/">Check visa rules first</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="nav__brand" href="../" style="margin-bottom:var(--sp-3);">
+            <span class="nav__brand-mark" aria-hidden="true"></span>
+            <span>GoChina</span>
+          </a>
+          <p style="max-width:340px;" data-i18n="footer.desc">An independent, ad-supported guide for transit travelers to China. We do not sell tours or take commissions.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <ul>
+            <li><a href="../visa/"       data-i18n="nav.visa">Visa</a></li>
+            <li><a href="../calculator/" data-i18n="nav.calculator">Budget</a></li>
+            <li><a href="../planner/"    data-i18n="nav.planner">Planner</a></li>
+            <li><a href="../payment/"    data-i18n="nav.payment">Payment</a></li>
+            <li><a href="../transport/"  data-i18n="nav.transport">Transport</a></li>
+            <li><a href="../cities/beijing/" data-i18n="nav.cities">Cities</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.company">Company</h4>
+          <ul>
+            <li><a href="../about/"   data-i18n="nav.about">About</a></li>
+            <li><a href="../contact/" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <ul>
+            <li><a href="../privacy/">Privacy</a></li>
+            <li><a href="../terms/">Terms</a></li>
+            <li><a href="../disclaimer/">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span data-i18n="footer.copyright">© 2026 GoChina Trip. All rights reserved.</span>
+        <span class="text-mute-2" data-i18n="footer.disclosure">This site displays ads via Google AdSense.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="consent" class="consent" role="dialog" aria-live="polite" aria-label="Cookie consent"></div>
+
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/language.js"></script>
+  <script src="../assets/js/ga4.js"></script>
+  <script src="../assets/js/consent.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/calculator.js"></script>
+  <script src="../assets/js/planner.js"></script>
+  <script>
+    (async () => {
+      const lang = window.I18N.detectInitialLang();
+      await window.I18N.setLanguage(lang);
+    })();
+  </script>
+</body>
+</html>

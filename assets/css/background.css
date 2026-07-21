@@ -1,0 +1,24 @@
+/* ========================================
+   background.css — Canvas 容器与降级
+   ======================================== */
+
+.bg-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.bg-canvas canvas { display: block; width: 100%; height: 100%; }
+
+.bg-static {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 50% at 30% 30%, rgba(63, 124, 133, 0.32), transparent 70%),
+    radial-gradient(50% 40% at 75% 70%, rgba(192, 59, 43, 0.22), transparent 70%),
+    radial-gradient(40% 40% at 50% 100%, rgba(245, 240, 230, 0.04), transparent 70%),
+    var(--c-ink);
+  z-index: 0;
+}

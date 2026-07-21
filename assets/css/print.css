@@ -1,0 +1,31 @@
+/* ========================================
+   print.css — 打印预算单
+   ======================================== */
+
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .nav, .footer, .consent, .ad-slot, .calc__actions, .hero__bg {
+    display: none !important;
+  }
+  .calc__result, .calc__form {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #111;
+  }
+  .calc__total {
+    background: #f3f3f3;
+    border-color: #999;
+  }
+  .calc__line, .calc__city {
+    color: #111;
+    border-color: #ccc;
+  }
+  .calc__line-label, .calc__line-value, .calc__total-value, strong {
+    color: #111 !important;
+  }
+  a { color: #111; text-decoration: underline; }
+  .container { max-width: 100%; }
+}

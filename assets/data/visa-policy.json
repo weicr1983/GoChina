@@ -1,0 +1,90 @@
+{
+  "version": "2026-01-15",
+  "source": "China National Immigration Administration",
+  "lastVerified": "2026-01-15",
+  "policies": {
+    "144h": {
+      "name": { "en": "144-Hour Visa-Free Transit", "zh-CN": "144 小时过境免签" },
+      "hours": 144,
+      "days": 6,
+      "summary": {
+        "en": "Available at major international airports across China. Stay up to 144 hours (6 days) within a designated region. Must have a confirmed onward ticket to a third country/region.",
+        "zh-CN": "在中国主要国际机场适用，可在指定区域内停留最多 144 小时（6 天）。须持有前往第三国/地区的联程客票。"
+      },
+      "eligiblePorts": [
+        { "code": "PEK", "name": "Beijing Capital International Airport" },
+        { "code": "PKX", "name": "Beijing Daxing International Airport" },
+        { "code": "PVG", "name": "Shanghai Pudong International Airport" },
+        { "code": "SHA", "name": "Shanghai Hongqiao International Airport" },
+        { "code": "CAN", "name": "Guangzhou Baiyun International Airport" },
+        { "code": "SZX", "name": "Shenzhen Bao'an International Airport" },
+        { "code": "CTU", "name": "Chengdu Shuangliu International Airport" },
+        { "code": "XIY", "name": "Xi'an Xianyang International Airport" },
+        { "code": "KMG", "name": "Kunming Changshui International Airport" },
+        { "code": "XMN", "name": "Xiamen Gaoqi International Airport" },
+        { "code": "WUH", "name": "Wuhan Tianhe International Airport" },
+        { "code": "TAO", "name": "Qingdao Jiaodong International Airport" },
+        { "code": "DLC", "name": "Dalian Zhoushuizi International Airport" }
+      ],
+      "regions": [
+        { "name": { "en": "Beijing / Tianjin / Hebei" }, "ports": ["PEK", "PKX"] },
+        { "name": { "en": "Yangtze River Delta (Shanghai, Jiangsu, Zhejiang)" }, "ports": ["PVG", "SHA"] },
+        { "name": { "en": "Pearl River Delta" }, "ports": ["CAN", "SZX"] }
+      ],
+      "requiredDocs": [
+        "Valid passport (6+ months remaining)",
+        "Confirmed onward ticket to a third country/region",
+        "Visa for the third destination (if required)",
+        "Hotel bookings within the permitted region"
+      ]
+    },
+    "240h": {
+      "name": { "en": "240-Hour Visa-Free Transit", "zh-CN": "240 小时过境免签" },
+      "hours": 240,
+      "days": 10,
+      "summary": {
+        "en": "Expanded 2024–2025 to cover most of China. Stay up to 240 hours (10 days) and travel across more than 20 provinces. Best for multi-city itineraries.",
+        "zh-CN": "2024–2025 年扩展至全国大部分地区，可停留最多 240 小时（10 天），跨 20 多个省份旅行。最适合多城路线。"
+      },
+      "eligiblePorts": [
+        { "code": "PEK", "name": "Beijing Capital" },
+        { "code": "PKX", "name": "Beijing Daxing" },
+        { "code": "PVG", "name": "Shanghai Pudong" },
+        { "code": "SHA", "name": "Shanghai Hongqiao" },
+        { "code": "CAN", "name": "Guangzhou Baiyun" },
+        { "code": "SZX", "name": "Shenzhen Bao'an" },
+        { "code": "CTU", "name": "Chengdu Shuangliu" },
+        { "code": "TFU", "name": "Chengdu Tianfu" },
+        { "code": "XIY", "name": "Xi'an Xianyang" },
+        { "code": "KMG", "name": "Kunming Changshui" },
+        { "code": "XMN", "name": "Xiamen Gaoqi" },
+        { "code": "WUH", "name": "Wuhan Tianhe" },
+        { "code": "TAO", "name": "Qingdao Jiaodong" },
+        { "code": "DLC", "name": "Dalian Zhoushuizi" },
+        { "code": "HGH", "name": "Hangzhou Xiaoshan" },
+        { "code": "NKG", "name": "Nanjing Lukou" }
+      ],
+      "regions": [
+        { "name": { "en": "Beijing / Tianjin / Hebei" } },
+        { "name": { "en": "Yangtze River Delta" } },
+        { "name": { "en": "Pearl River Delta" } },
+        { "name": { "en": "Sichuan / Chongqing" } },
+        { "name": { "en": "Shaanxi" } },
+        { "name": { "en": "Yunnan" } },
+        { "name": { "en": "Hubei" } },
+        { "name": { "en": "Liaoning" } }
+      ],
+      "requiredDocs": [
+        "Valid passport (6+ months remaining)",
+        "Confirmed onward ticket to a third country/region",
+        "Visa for the third destination (if required)",
+        "Hotel bookings and rough itinerary"
+      ],
+      "advantages": [
+        "Cross-region travel is now allowed within the permitted zones",
+        "Up to 10 days for deeper exploration",
+        "Suitable for multi-city itineraries (Beijing + Xi'an, Shanghai + Hangzhou + Suzhou, etc.)"
+      ]
+    }
+  }
+}

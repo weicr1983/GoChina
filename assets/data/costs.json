@@ -1,0 +1,36 @@
+{
+  "version": "2026-01-15",
+  "currency": "USD",
+  "fx": { "USD_CNY": 7.20, "updated": "2026-01-15" },
+  "tiers": {
+    "hotel": {
+      "budget": "Hostel dorm / budget chain",
+      "mid": "3–4 star business hotel",
+      "luxury": "5 star international"
+    },
+    "food": {
+      "budget": "Street food + casual noodle shops",
+      "mid": "Mid-range restaurants + one nice meal/day",
+      "luxury": "Fine dining + hotel breakfast"
+    },
+    "transport": {
+      "metro": "Metro + walking",
+      "mixed": "Metro + occasional DiDi (ride-hail)",
+      "taxi": "Mostly taxis / DiDi"
+    }
+  },
+  "cities": {
+    "beijing":   { "hotel": { "budget": 30, "mid": 95,  "luxury": 280 }, "food": { "budget": 18, "mid": 40,  "luxury": 100 }, "transport": 10, "attractionAvg": 8 },
+    "shanghai":  { "hotel": { "budget": 35, "mid": 110, "luxury": 320 }, "food": { "budget": 22, "mid": 48,  "luxury": 120 }, "transport": 11, "attractionAvg": 9 },
+    "guangzhou": { "hotel": { "budget": 28, "mid": 85,  "luxury": 240 }, "food": { "budget": 18, "mid": 38,  "luxury": 95  }, "transport": 9,  "attractionAvg": 7 },
+    "chengdu":   { "hotel": { "budget": 22, "mid": 70,  "luxury": 200 }, "food": { "budget": 16, "mid": 32,  "luxury": 80  }, "transport": 7,  "attractionAvg": 6 },
+    "xian":      { "hotel": { "budget": 20, "mid": 65,  "luxury": 180 }, "food": { "budget": 14, "mid": 28,  "luxury": 70  }, "transport": 6,  "attractionAvg": 7 }
+  },
+  "hsr": {
+    "beijing-shanghai":  4.5, "beijing-guangzhou": 8.0, "beijing-chengdu": 7.5, "beijing-xian": 4.5,
+    "shanghai-guangzhou": 6.5, "shanghai-chengdu": 10.0, "shanghai-xian": 11.0,
+    "guangzhou-chengdu":  8.0, "guangzhou-xian":   8.0,
+    "chengdu-xian":       3.5
+  },
+  "notes": "Prices are 2025-2026 averages from Booking / Trip.com listings for international travelers. Actual rates vary by season (+/- 30%). FX rate is updated quarterly."
+}

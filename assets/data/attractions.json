@@ -1,0 +1,23 @@
+{
+  "version": "2026-01-15",
+  "attractions": [
+    { "id": "forbidden-city",         "cityId": "beijing",   "name": { "en": "The Forbidden City" },        "ticketUSD": 8,  "durationHours": 3, "booking": "online" },
+    { "id": "great-wall-mutianyu",    "cityId": "beijing",   "name": { "en": "Mutianyu Great Wall" },       "ticketUSD": 12, "durationHours": 5, "booking": "online" },
+    { "id": "temple-of-heaven",       "cityId": "beijing",   "name": { "en": "Temple of Heaven" },          "ticketUSD": 6,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "summer-palace",          "cityId": "beijing",   "name": { "en": "Summer Palace" },             "ticketUSD": 7,  "durationHours": 3, "booking": "online" },
+    { "id": "the-bund",               "cityId": "shanghai",  "name": { "en": "The Bund" },                  "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "yu-garden",              "cityId": "shanghai",  "name": { "en": "Yu Garden" },                 "ticketUSD": 7,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "shanghai-tower",         "cityId": "shanghai",  "name": { "en": "Shanghai Tower" },            "ticketUSD": 24, "durationHours": 2, "booking": "online" },
+    { "id": "nanjing-road",           "cityId": "shanghai",  "name": { "en": "Nanjing Road" },              "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "canton-tower",           "cityId": "guangzhou", "name": { "en": "Canton Tower" },              "ticketUSD": 18, "durationHours": 2, "booking": "online" },
+    { "id": "shamian-island",         "cityId": "guangzhou", "name": { "en": "Shamian Island" },            "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "panda-base",             "cityId": "chengdu",   "name": { "en": "Chengdu Research Base of Giant Panda Breeding" }, "ticketUSD": 12, "durationHours": 3, "booking": "online" },
+    { "id": "jinli-street",           "cityId": "chengdu",   "name": { "en": "Jinli Ancient Street" },      "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "du-fu-thatched-cottage", "cityId": "chengdu",   "name": { "en": "Du Fu Thatched Cottage" },    "ticketUSD": 5,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "wide-and-narrow-alley",  "cityId": "chengdu",   "name": { "en": "Wide and Narrow Alley" },     "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "terracotta-army",        "cityId": "xian",      "name": { "en": "Terracotta Army" },           "ticketUSD": 16, "durationHours": 4, "booking": "online" },
+    { "id": "city-wall",              "cityId": "xian",      "name": { "en": "Xi'an City Wall (bike ride)" }, "ticketUSD": 6,  "durationHours": 2, "booking": "walk-in" },
+    { "id": "big-wild-goose-pagoda",  "cityId": "xian",      "name": { "en": "Big Wild Goose Pagoda" },     "ticketUSD": 5,  "durationHours": 1, "booking": "walk-in" },
+    { "id": "muslim-quarter",         "cityId": "xian",      "name": { "en": "Muslim Quarter" },            "ticketUSD": 0,  "durationHours": 2, "booking": "walk-in" }
+  ]
+}

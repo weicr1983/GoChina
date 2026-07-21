@@ -1,0 +1,60 @@
+{
+  "version": "2026-01-15",
+  "cities": [
+    {
+      "id": "beijing",
+      "slug": "beijing",
+      "name": { "en": "Beijing", "zh-CN": "北京" },
+      "region": "north-china",
+      "visaZones": ["240h-beijing-tianjin-hebei"],
+      "entryPorts": ["PEK", "PKX"],
+      "tagline": { "en": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history." },
+      "minStayDays": 2,
+      "highlights": ["forbidden-city", "great-wall-mutianyu", "temple-of-heaven", "summer-palace"]
+    },
+    {
+      "id": "shanghai",
+      "slug": "shanghai",
+      "name": { "en": "Shanghai", "zh-CN": "上海" },
+      "region": "east-china",
+      "visaZones": ["240h-yangtze-delta"],
+      "entryPorts": ["PVG", "SHA"],
+      "tagline": { "en": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse." },
+      "minStayDays": 2,
+      "highlights": ["the-bund", "yu-garden", "shanghai-tower", "nanjing-road"]
+    },
+    {
+      "id": "guangzhou",
+      "slug": "guangzhou",
+      "name": { "en": "Guangzhou", "zh-CN": "广州" },
+      "region": "south-china",
+      "visaZones": ["240h-pearl-river-delta"],
+      "entryPorts": ["CAN"],
+      "tagline": { "en": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage." },
+      "minStayDays": 1,
+      "highlights": ["canton-tower", "shamian-island", "chen-clan-ancestral-hall"]
+    },
+    {
+      "id": "chengdu",
+      "slug": "chengdu",
+      "name": { "en": "Chengdu", "zh-CN": "成都" },
+      "region": "southwest",
+      "visaZones": ["240h-sichuan"],
+      "entryPorts": ["CTU"],
+      "tagline": { "en": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace." },
+      "minStayDays": 2,
+      "highlights": ["panda-base", "jinli-street", "du-fu-thatched-cottage", "wide-and-narrow-alley"]
+    },
+    {
+      "id": "xian",
+      "slug": "xian",
+      "name": { "en": "Xi'an", "zh-CN": "西安" },
+      "region": "northwest",
+      "visaZones": ["240h-shaanxi"],
+      "entryPorts": ["XIY"],
+      "tagline": { "en": "Terracotta Warriors and the ancient Silk Road starting point." },
+      "minStayDays": 2,
+      "highlights": ["terracotta-army", "city-wall", "big-wild-goose-pagoda", "muslim-quarter"]
+    }
+  ]
+}

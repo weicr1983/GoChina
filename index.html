@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GoChina Trip — 144 / 240 hour visa-free China trip planner</title>
+  <meta name="description" content="Plan your 144 or 240 hour visa-free trip to China. Budget calculator, visa guide, and per-city costs for Beijing, Shanghai, Chengdu, Xi'an, and more.">
+  <meta name="theme-color" content="#0F1115">
+  <link rel="canonical" href="https://gochinatrip.com/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C03B2B'/%3E%3Cpath d='M6 22L16 8L26 22Z' fill='%23F5F0E6'/%3E%3C/svg%3E">
+
+  <!-- hreflang（V1.1 全语言时展开） -->
+  <link rel="alternate" hreflang="en"    href="https://gochinatrip.com/">
+  <link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/">
+  <link rel="alternate" hreflang="x-default" href="https://gochinatrip.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GoChina Trip — Visa-free China trip planner">
+  <meta property="og:description" content="144 / 240 hour visa-free itineraries, budgets, and city guides.">
+  <meta property="og:url" content="https://gochinatrip.com/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/background.css">
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GoChina Trip",
+    "url": "https://gochinatrip.com/",
+    "description": "Independent guide for transit travelers to China."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="/">
+        <span class="nav__brand-mark" aria-hidden="true"></span>
+        <span>GoChina</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="/visa/"        data-i18n="nav.visa">Visa</a>
+        <a class="nav__link" href="/calculator/"  data-i18n="nav.calculator">Budget</a>
+        <a class="nav__link" href="/planner/"     data-i18n="nav.planner">Planner</a>
+        <a class="nav__link" href="/cities/beijing/" data-i18n="nav.cities">Cities</a>
+        <a class="nav__link" href="/about/"       data-i18n="nav.about">About</a>
+      </nav>
+      <div class="nav__cta">
+        <span data-lang-root></span>
+        <button class="nav__burger" type="button" aria-label="Menu" aria-expanded="false" data-nav-burger>
+          <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+            <path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="nav__mobile" data-nav-mobile>
+        <a href="/visa/"        data-i18n="nav.visa">Visa</a>
+        <a href="/calculator/"  data-i18n="nav.calculator">Budget</a>
+        <a href="/planner/"     data-i18n="nav.planner">Planner</a>
+        <a href="/cities/beijing/" data-i18n="nav.cities">Cities</a>
+        <a href="/about/"       data-i18n="nav.about">About</a>
+        <a href="/contact/"     data-i18n="nav.contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="bg-canvas" aria-hidden="true">
+        <canvas></canvas>
+      </div>
+      <div class="hero__content">
+        <span class="eyebrow" data-i18n="home.eyebrow">144 / 240-hour visa-free China</span>
+        <h1 class="hero__title" data-i18n="home.heroTitle">Land in China.<br/>Plan in <em>ten minutes</em>.</h1>
+        <p class="hero__subtitle" data-i18n="home.heroSubtitle">All the answers to how to come, how to pay, how to get around, and how much it costs — built for travelers using the new transit visa-free policy.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="/planner/" data-i18n="home.heroCta">Start planning</a>
+          <a class="btn btn--ghost"   href="/visa/"    data-i18n="home.heroCtaSecondary">Check visa rules</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint">SCROLL</div>
+    </section>
+
+    <!-- ===== 政策速览 ===== -->
+    <section class="section" data-reveal>
+      <div class="container">
+        <div class="text-center" style="max-width:680px;margin:0 auto var(--sp-10);">
+          <span class="eyebrow">144 / 240</span>
+          <h2 data-i18n="home.policyCard.title">Visa-free policy at a glance</h2>
+          <p class="text-mute-2" style="margin-top:var(--sp-3);" data-i18n="home.policyCard.subtitle">Choose based on how long you can stay and how far you want to travel.</p>
+        </div>
+        <div class="grid grid--2">
+          <article class="card card--feature">
+            <div style="display:flex;align-items:center;gap:var(--sp-3);">
+              <span class="tag">144h</span>
+              <span class="text-mute-2" data-i18n="home.policyCard.card144.days">6 days</span>
+            </div>
+            <h3 data-i18n="home.policyCard.card144.label">144 hours</h3>
+            <p data-i18n="home.policyCard.card144.text">Stay within a designated region. Simpler, faster approval.</p>
+            <a class="btn btn--ghost btn--sm" href="/visa/" style="align-self:flex-start;margin-top:var(--sp-3);">Read details →</a>
+          </article>
+          <article class="card card--feature card--accent">
+            <div style="display:flex;align-items:center;gap:var(--sp-3);">
+              <span class="tag tag--cinnabar">240h</span>
+              <span class="text-mute-2" data-i18n="home.policyCard.card240.days">10 days</span>
+            </div>
+            <h3 data-i18n="home.policyCard.card240.label">240 hours</h3>
+            <p data-i18n="home.policyCard.card240.text">Cross more provinces, ideal for multi-city trips.</p>
+            <a class="btn btn--primary btn--sm" href="/visa/" style="align-self:flex-start;margin-top:var(--sp-3);">Read details →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><div class="ad-slot">Advertisement</div></div>
+
+    <!-- ===== 4 大痛点 ===== -->
+    <section class="section" data-reveal>
+      <div class="container">
+        <div class="text-center" style="max-width:680px;margin:0 auto var(--sp-10);">
+          <span class="eyebrow">Why us</span>
+          <h2 data-i18n="home.painPoints.title">Four things every traveler asks</h2>
+          <p class="text-mute-2" style="margin-top:var(--sp-3);" data-i18n="home.painPoints.subtitle">We built tools, not articles. Adjust the sliders, get the answer.</p>
+        </div>
+        <div class="grid grid--4">
+          <article class="card card--feature" data-reveal>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--c-landscape)"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+            <h3 data-i18n="home.painPoints.items.0.title">How do I enter?</h3>
+            <p data-i18n="home.painPoints.items.0.text">144 or 240 hour visa-free at 20+ airports. See eligible ports and required documents.</p>
+            <a class="btn btn--ghost btn--sm" href="/visa/" style="align-self:flex-start;margin-top:var(--sp-2);">Visa guide →</a>
+          </article>
+          <article class="card card--feature" data-reveal>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--c-landscape)"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            <h3 data-i18n="home.painPoints.items.1.title">How do I pay?</h3>
+            <p data-i18n="home.painPoints.items.1.text">Bind your Visa or Mastercard to Alipay / WeChat Pay in 5 minutes. Cash and ATMs also work.</p>
+            <a class="btn btn--ghost btn--sm" href="/payment/" style="align-self:flex-start;margin-top:var(--sp-2);">Payment guide →</a>
+          </article>
+          <article class="card card--feature" data-reveal>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--c-landscape)"><rect x="4" y="3" width="16" height="16" rx="2"/><circle cx="8.5" cy="8" r="1.2" fill="currentColor"/><circle cx="15.5" cy="8" r="1.2" fill="currentColor"/><path d="M9 15h6"/></svg>
+            <h3 data-i18n="home.painPoints.items.2.title">How do I move?</h3>
+            <p data-i18n="home.painPoints.items.2.text">High-speed rail, metro, DiDi ride-hailing, bike-share — all foreigner-friendly.</p>
+            <a class="btn btn--ghost btn--sm" href="/transport/" style="align-self:flex-start;margin-top:var(--sp-2);">Transport guide →</a>
+          </article>
+          <article class="card card--feature" data-reveal>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--c-landscape)"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+            <h3 data-i18n="home.painPoints.items.3.title">How much does it cost?</h3>
+            <p data-i18n="home.painPoints.items.3.text">Itemized budget calculator with per-city breakdown in USD and CNY.</p>
+            <a class="btn btn--primary btn--sm" href="/calculator/" style="align-self:flex-start;margin-top:var(--sp-2);">Open calculator →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 工具 ===== -->
+    <section class="section" data-reveal>
+      <div class="container">
+        <div class="text-center" style="max-width:680px;margin:0 auto var(--sp-10);">
+          <span class="eyebrow">Tools</span>
+          <h2 data-i18n="home.toolsCard.title">Tools</h2>
+        </div>
+        <div class="grid grid--2">
+          <article class="card card--accent" data-reveal>
+            <span class="tag tag--cinnabar">Live</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.toolsCard.budget.title">Budget calculator</h3>
+            <p data-i18n="home.toolsCard.budget.text">Per-city breakdown in seconds. Shareable URL.</p>
+            <a class="btn btn--primary" href="/calculator/" style="align-self:flex-start;margin-top:var(--sp-3);">Open →</a>
+          </article>
+          <article class="card" data-reveal>
+            <span class="tag">Soon</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.toolsCard.planner.title">Itinerary planner</h3>
+            <p data-i18n="home.toolsCard.planner.text">Pick your hours and interests — get a route.</p>
+            <a class="btn btn--ghost" href="/planner/" style="align-self:flex-start;margin-top:var(--sp-3);">Preview →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><div class="ad-slot ad-slot--rect">Advertisement</div></div>
+
+    <!-- ===== 城市卡片 ===== -->
+    <section class="section" data-reveal>
+      <div class="container">
+        <div class="text-center" style="max-width:680px;margin:0 auto var(--sp-10);">
+          <span class="eyebrow">Cities</span>
+          <h2 data-i18n="home.citiesCard.title">Start with a city</h2>
+        </div>
+        <div class="grid grid--4">
+          <a href="/cities/shanghai/" class="card" data-reveal style="text-decoration:none;">
+            <span class="tag">SH</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.citiesCard.items.0.name">Shanghai</h3>
+            <p class="text-mute-2" style="font-size:var(--fs-sm);" data-i18n="home.citiesCard.items.0.tag">Future skyline, dumplings, the Bund</p>
+          </a>
+          <a href="/cities/beijing/" class="card" data-reveal style="text-decoration:none;">
+            <span class="tag">BJ</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.citiesCard.items.1.name">Beijing</h3>
+            <p class="text-mute-2" style="font-size:var(--fs-sm);" data-i18n="home.citiesCard.items.1.tag">Forbidden City, Great Wall, hutongs</p>
+          </a>
+          <a href="/cities/chengdu/" class="card" data-reveal style="text-decoration:none;">
+            <span class="tag">CD</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.citiesCard.items.2.name">Chengdu</h3>
+            <p class="text-mute-2" style="font-size:var(--fs-sm);" data-i18n="home.citiesCard.items.2.tag">Pandas, Sichuan food, slow pace</p>
+          </a>
+          <a href="/cities/xian/" class="card" data-reveal style="text-decoration:none;">
+            <span class="tag">XA</span>
+            <h3 style="margin-top:var(--sp-3);" data-i18n="home.citiesCard.items.3.name">Xi'an</h3>
+            <p class="text-mute-2" style="font-size:var(--fs-sm);" data-i18n="home.citiesCard.items.3.tag">Terracotta Warriors, Silk Road</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="nav__brand" href="/" style="margin-bottom:var(--sp-3);">
+            <span class="nav__brand-mark" aria-hidden="true"></span>
+            <span>GoChina</span>
+          </a>
+          <p style="max-width:340px;" data-i18n="footer.desc">An independent, ad-supported guide for transit travelers to China. We do not sell tours or take commissions.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <ul>
+            <li><a href="/visa/"       data-i18n="nav.visa">Visa</a></li>
+            <li><a href="/calculator/" data-i18n="nav.calculator">Budget</a></li>
+            <li><a href="/planner/"    data-i18n="nav.planner">Planner</a></li>
+            <li><a href="/cities/beijing/" data-i18n="nav.cities">Cities</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.company">Company</h4>
+          <ul>
+            <li><a href="/about/"   data-i18n="nav.about">About</a></li>
+            <li><a href="/contact/" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <ul>
+            <li><a href="/privacy/">Privacy</a></li>
+            <li><a href="/terms/">Terms</a></li>
+            <li><a href="/disclaimer/">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span data-i18n="footer.copyright">© 2026 GoChina Trip. All rights reserved.</span>
+        <span class="text-mute-2" data-i18n="footer.disclosure">This site displays ads via Google AdSense. Some links may be affiliate.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== 同意横幅 ===== -->
+  <div id="consent" class="consent" role="dialog" aria-live="polite" aria-label="Cookie consent"></div>
+
+  <!-- ===== JS ===== -->
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/background.js"></script>
+  <script src="assets/js/ga4.js"></script>
+  <script src="assets/js/consent.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>
+    // 启动 i18n
+    (async () => {
+      const lang = window.I18N.detectInitialLang();
+      await window.I18N.setLanguage(lang);
+    })();
+  </script>
+</body>
+</html>

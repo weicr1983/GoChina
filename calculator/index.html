@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trip Budget Calculator — GoChina Trip</title>
+  <meta name="description" content="Itemized trip budget for China. Per-city breakdown in USD and CNY. Hotel, food, transport, attractions, intercity high-speed rail. Shareable URL.">
+  <meta name="theme-color" content="#0F1115">
+  <link rel="canonical" href="https://gochinatrip.com/calculator/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C03B2B'/%3E%3Cpath d='M6 22L16 8L26 22Z' fill='%23F5F0E6'/%3E%3C/svg%3E">
+  <link rel="alternate" hreflang="en" href="https://gochinatrip.com/calculator/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/calculator.css">
+  <link rel="stylesheet" href="../assets/css/print.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="../">
+        <span class="nav__brand-mark" aria-hidden="true"></span>
+        <span>GoChina</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="../visa/"       data-i18n="nav.visa">Visa</a>
+        <a class="nav__link" href="../calculator/" aria-current="page" data-i18n="nav.calculator">Budget</a>
+        <a class="nav__link" href="../planner/"    data-i18n="nav.planner">Planner</a>
+        <a class="nav__link" href="../cities/beijing/" data-i18n="nav.cities">Cities</a>
+        <a class="nav__link" href="../about/"      data-i18n="nav.about">About</a>
+      </nav>
+      <div class="nav__cta">
+        <span data-lang-root></span>
+        <button class="nav__burger" type="button" aria-label="Menu" aria-expanded="false" data-nav-burger>
+          <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="nav__mobile" data-nav-mobile>
+        <a href="../visa/"       data-i18n="nav.visa">Visa</a>
+        <a href="../calculator/" data-i18n="nav.calculator">Budget</a>
+        <a href="../planner/"    data-i18n="nav.planner">Planner</a>
+        <a href="../cities/beijing/" data-i18n="nav.cities">Cities</a>
+        <a href="../about/"      data-i18n="nav.about">About</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+    <header style="max-width:720px;margin:0 auto var(--sp-10);text-align:center;">
+      <span class="eyebrow">Budget</span>
+      <h1 data-i18n="calculator.title">Trip budget calculator</h1>
+      <p class="text-mute-2" style="margin-top:var(--sp-4);font-size:var(--fs-md);" data-i18n="calculator.subtitle">Adjust the controls. The total updates instantly. Share the URL to send your budget to a travel partner.</p>
+    </header>
+
+    <div class="calc">
+      <!-- ===== 表单 ===== -->
+      <form id="calc-form" class="calc__form" autocomplete="off" novalidate>
+        <h2>Your trip</h2>
+
+        <div class="form-group">
+          <label class="form-label" for="in-days" data-i18n="calculator.days">Days in China</label>
+          <div class="calc__range-row">
+            <input class="form-range" type="range" id="in-days" name="days" min="1" max="14" value="5">
+            <span class="calc__range-value" id="val-days">5</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="in-cities" data-i18n="calculator.cities">Cities to visit</label>
+          <div class="calc__range-row">
+            <input class="form-range" type="range" id="in-cities" name="cityCount" min="1" max="5" value="2">
+            <span class="calc__range-value" id="val-cities">2</span>
+          </div>
+          <span class="form-hint">Sequential: Beijing, Shanghai, Guangzhou, Chengdu, Xi'an.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="in-travellers" data-i18n="calculator.travellers">Travelers</label>
+          <div class="calc__range-row">
+            <input class="form-range" type="range" id="in-travellers" name="travellers" min="1" max="8" value="1">
+            <span class="calc__range-value" id="val-travellers">1</span>
+          </div>
+        </div>
+
+        <div class="calc__field-grid">
+          <div class="form-group">
+            <label class="form-label" for="in-hotel" data-i18n="calculator.hotel">Hotel tier</label>
+            <select class="form-select" id="in-hotel" name="hotelTier">
+              <option value="budget">Budget (hostel / chain)</option>
+              <option value="mid" selected>Mid-range (3–4★)</option>
+              <option value="luxury">Luxury (5★)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="in-food" data-i18n="calculator.food">Food level</label>
+            <select class="form-select" id="in-food" name="foodTier">
+              <option value="budget">Street food + casual</option>
+              <option value="mid" selected>Mid-range + 1 nice meal</option>
+              <option value="luxury">Fine dining</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="calc__field-grid">
+          <div class="form-group">
+            <label class="form-label" for="in-transport" data-i18n="calculator.transport">Local transport</label>
+            <select class="form-select" id="in-transport" name="transport">
+              <option value="metro" selected>Metro + walking</option>
+              <option value="mixed">Metro + DiDi</option>
+              <option value="taxi">Mostly taxis / DiDi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="in-attr" data-i18n="calculator.attr">Paid attractions per city</label>
+            <div class="calc__range-row">
+              <input class="form-range" type="range" id="in-attr" name="attractions" min="0" max="6" value="2">
+              <span class="calc__range-value" id="val-attr">2</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc__field-grid">
+          <div class="form-group">
+            <label class="form-label" for="in-shop" data-i18n="calculator.shop">Shopping per person (USD)</label>
+            <input class="form-control" type="number" id="in-shop" name="shopping" min="0" max="100000" value="0" step="20">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="in-other" data-i18n="calculator.other">Other (SIM, tips, misc)</label>
+            <input class="form-control" type="number" id="in-other" name="other" min="0" max="100000" value="0" step="10">
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top:var(--sp-2);">
+          <label class="form-check">
+            <input type="checkbox" id="in-rail" name="intercityRail" checked>
+            <span data-i18n="calculator.rail">Include high-speed rail between cities</span>
+          </label>
+        </div>
+      </form>
+
+      <!-- ===== 结果 ===== -->
+      <aside class="calc__result" aria-live="polite">
+        <div class="calc__total">
+          <span class="calc__total-label" data-i18n="calculator.total">Estimated total</span>
+          <span class="calc__total-value" id="calc-total">$0</span>
+          <span class="calc__total-cny" id="calc-total-cny">≈ ¥0 CNY</span>
+        </div>
+
+        <div>
+          <h3 data-i18n="calculator.perCity">Per city</h3>
+          <div class="calc__per-city" id="calc-per-city"></div>
+        </div>
+
+        <div class="calc__breakdown">
+          <h3 data-i18n="calculator.breakdown">Breakdown</h3>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.hotel">Hotels</span><span class="calc__line-value" id="calc-hotel">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.food">Food & dining</span><span class="calc__line-value" id="calc-food">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.transport">Local transport</span><span class="calc__line-value" id="calc-transport">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.attraction">Attractions</span><span class="calc__line-value" id="calc-attraction">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.intercity">High-speed rail</span><span class="calc__line-value" id="calc-intercity">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.shopping">Shopping</span><span class="calc__line-value" id="calc-shopping">$0</span></div>
+          <div class="calc__line"><span class="calc__line-label" data-i18n="calculator.lines.other">Other</span><span class="calc__line-value" id="calc-other">$0</span></div>
+        </div>
+
+        <div class="calc__actions">
+          <button type="button" class="btn btn--ghost btn--sm" id="calc-print" data-i18n="calculator.print">Print</button>
+          <button type="button" class="btn btn--ghost btn--sm" id="calc-reset" data-i18n="calculator.reset">Reset</button>
+        </div>
+
+        <p class="calc__note" data-i18n="calculator.note">Estimate based on 2025-2026 Booking / Trip.com averages. Actual prices vary by season. Use this as a starting point, not a quote.</p>
+      </aside>
+    </div>
+
+    <div class="ad-slot" style="margin-top:var(--sp-12);">Advertisement</div>
+
+    <section style="margin-top:var(--sp-12);max-width:760px;margin-inline:auto;" data-reveal>
+      <h2>How we calculate</h2>
+      <p class="text-mute-2" style="margin-top:var(--sp-3);">
+        We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail.
+        For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport,
+        attractions and rail tickets scale per person. Shopping and other costs are entered as
+        per-person amounts and multiplied by your group size.
+      </p>
+      <p class="text-mute-2" style="margin-top:var(--sp-3);">
+        FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%.
+        Peak season (Chinese New Year, Golden Week) prices can rise 30–50%.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="nav__brand" href="../" style="margin-bottom:var(--sp-3);">
+            <span class="nav__brand-mark" aria-hidden="true"></span>
+            <span>GoChina</span>
+          </a>
+          <p style="max-width:340px;" data-i18n="footer.desc">An independent, ad-supported guide for transit travelers to China. We do not sell tours or take commissions.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <ul>
+            <li><a href="../visa/"       data-i18n="nav.visa">Visa</a></li>
+            <li><a href="../calculator/" data-i18n="nav.calculator">Budget</a></li>
+            <li><a href="../planner/"    data-i18n="nav.planner">Planner</a></li>
+            <li><a href="../cities/beijing/" data-i18n="nav.cities">Cities</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.company">Company</h4>
+          <ul>
+            <li><a href="../about/"   data-i18n="nav.about">About</a></li>
+            <li><a href="../contact/" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <ul>
+            <li><a href="../privacy/">Privacy</a></li>
+            <li><a href="../terms/">Terms</a></li>
+            <li><a href="../disclaimer/">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span data-i18n="footer.copyright">© 2026 GoChina Trip. All rights reserved.</span>
+        <span class="text-mute-2" data-i18n="footer.disclosure">This site displays ads via Google AdSense.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="consent" class="consent" role="dialog" aria-live="polite" aria-label="Cookie consent"></div>
+
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/language.js"></script>
+  <script src="../assets/js/ga4.js"></script>
+  <script src="../assets/js/consent.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/calculator.js"></script>
+  <script>
+    (async () => {
+      const lang = window.I18N.detectInitialLang();
+      await window.I18N.setLanguage(lang);
+    })();
+  </script>
+</body>
+</html>

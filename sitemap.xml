@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://gochinatrip.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gochinatrip.com/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/visa/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/visa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/visa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/visa/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/visa/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/visa/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/visa/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/visa/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/visa/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/visa/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/visa/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/calculator/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/calculator/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/calculator/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/planner/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/planner/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/planner/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/planner/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/planner/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/planner/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/planner/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/planner/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/planner/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/planner/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/planner/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/payment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/payment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/payment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/payment/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/payment/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/payment/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/payment/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/payment/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/payment/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/payment/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/payment/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/transport/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://gochinatrip.com/transport/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gochinatrip.com/zh-CN/transport/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://gochinatrip.com/zh-TW/transport/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://gochinatrip.com/ja/transport/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://gochinatrip.com/ko/transport/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://gochinatrip.com/ru/transport/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://gochinatrip.com/fr/transport/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://gochinatrip.com/de/transport/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://gochinatrip.com/es/transport/"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://gochinatrip.com/it/transport/"/>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/beijing/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/shanghai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/guangzhou/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/chengdu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/cities/xian/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/about/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/contact/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://gochinatrip.com/disclaimer/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
