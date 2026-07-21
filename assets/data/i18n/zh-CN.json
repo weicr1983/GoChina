@@ -41,22 +41,52 @@
       "planner": { "title": "行程规划器", "text": "输入时长与兴趣，自动生成路线。" }
     },
     "citiesCard": {
-      "title": "从一座城开始",
+      "title": "选一座城开始",
       "items": [
-        { "name": "上海", "tag": "未来天际线、小笼包、外滩" },
-        { "name": "北京", "tag": "故宫、长城、胡同" },
-        { "name": "成都", "tag": "大熊猫、川菜、慢生活" },
-        { "name": "西安", "tag": "兵马俑、丝绸之路" }
+        { "name": "上海",  "tag": "未来天际线、饺子、外滩" },
+        { "name": "北京",  "tag": "故宫、长城、胡同" },
+        { "name": "成都",  "tag": "大熊猫、川菜、慢生活" },
+        { "name": "西安",  "tag": "兵马俑、丝绸之路" }
       ]
-    }
+    },
+    "btnReadDetails": "查看详情 →",
+    "btnVisa": "签证指南 →",
+    "btnPayment": "支付指南 →",
+    "btnTransport": "交通指南 →",
+    "btnOpenCalculator": "打开计算器 →",
+    "btnOpen": "打开 →",
+    "btnPreview": "预览 →"
   },
   "visa": {
     "title": "144 vs 240 小时过境免签",
     "subtitle": "两种政策都免事先签证申请，区别在于停留时长和活动范围。",
     "compareTitle": "对比",
+    "compare": [
+      { "label": "停留时长",     "v144": "6 天",                          "v240": "10 天" },
+      { "label": "覆盖范围",     "v144": "指定区域内",                    "v240": "20+ 省份，可跨区域" },
+      { "label": "适合人群",     "v144": "短途城市游",                    "v240": "多城深度路线" },
+      { "label": "办理时长",     "v144": "机场 ~5–10 分钟",               "v240": "机场 ~5–15 分钟" },
+      { "label": "所需材料",     "v144": "护照、联程客票",                "v240": "护照、联程客票、酒店预订单" }
+    ],
     "eligiblePorts": "适用入境口岸",
-    "regions": "覆盖区域",
-    "docs": "所需材料",
+    "portsIntro": "两个政策覆盖大部分主要机场，下表为 144h + 240h 的并集。预订前请到官方网站核对最新清单。",
+    "portsHeader": { "code": "代码", "airport": "机场", "h144": "144h", "h240": "240h" },
+    "ports": [
+      { "code": "PEK", "airport": "北京首都国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "PKX", "airport": "北京大兴国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "PVG", "airport": "上海浦东国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "SHA", "airport": "上海虹桥国际机场",     "h144": "—", "h240": "✓" },
+      { "code": "CAN", "airport": "广州白云国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "SZX", "airport": "深圳宝安国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "CTU", "airport": "成都双流国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "TFU", "airport": "成都天府国际机场",     "h144": "—", "h240": "✓" },
+      { "code": "XIY", "airport": "西安咸阳国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "KMG", "airport": "昆明长水国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "XMN", "airport": "厦门高崎国际机场",     "h144": "✓", "h240": "✓" },
+      { "code": "WUH", "airport": "武汉天河国际机场",     "h144": "—", "h240": "✓" },
+      { "code": "TAO", "airport": "青岛胶东国际机场",     "h144": "—", "h240": "✓" },
+      { "code": "DLC", "airport": "大连周水子国际机场",   "h144": "—", "h240": "✓" }
+    ],
     "applyTitle": "机场申请流程",
     "applySteps": [
       "抵达适用口岸，准备好护照、联程客票和（如需）第三国签证。",
@@ -69,7 +99,12 @@
       "联程客票目的地必须是第三国/地区，不能返回出发国。",
       "酒店需登记外籍旅客，请随身携带护照。",
       "240 小时可在更多邻近省份间移动。"
-    ]
+    ],
+    "ctaTitle": "签证搞定了，下一步规划行程。",
+    "ctaSubtitle": "打开预算计算器，看看在中国每天到底要花多少钱。",
+    "ctaBudget": "打开预算计算器",
+    "ctaPlanner": "试试行程规划器",
+    "advertisement": "广告"
   },
   "calculator": {
     "title": "行程预算计算器",
@@ -98,7 +133,154 @@
     },
     "print": "打印",
     "reset": "重置",
-    "note": "基于 2025-2026 Booking / 携程均价估算，实际价格因季节波动 ±30%，请作为起点而非报价。"
+    "note": "基于 2025-2026 Booking / 携程均价估算，实际价格因季节波动 ±30%，请作为起点而非报价。",
+    "tripTitle": "你的行程",
+    "calcMethod": "计算说明",
+    "calcBody": "我们使用 Booking.com、携程和 12306 的 2025–2026 均价数据。超过 1 人时，酒店按每间房（每 2 人 1 间）计费；餐饮、交通、景点、高铁按人头计算；购物与其他费用为人均输入后乘以同行人数。",
+    "fxNote": "汇率：1 USD = 7.20 CNY（更新于 2026-01-15）。实际银行汇率会有 1–3% 偏差，旺季（春节、国庆）价格可上涨 30–50%。"
+  },
+  "citiesPage": {
+    "title": "选一座城，或者选几座。",
+    "subtitle": "五大门户城市，均在 144h 和 240h 政策覆盖范围内。点击任一城市可查看签证细则、景点介绍与按城成本明细。",
+    "bj": { "name": "北京",  "tag": "故宫、长城、胡同" },
+    "sh": { "name": "上海",  "tag": "未来天际线、饺子、外滩" },
+    "gz": { "name": "广州",  "tag": "粤菜、珠江、岭南文化" },
+    "cd": { "name": "成都",  "tag": "大熊猫、川菜、慢生活" },
+    "xa": { "name": "西安",  "tag": "兵马俑、丝绸之路" },
+    "ad": "广告"
+  },
+  "city": {
+    "common": {
+      "mustSee": "必去景点",
+      "mustSeeHeaders": { "place": "景点", "ticket": "门票", "hours": "游览时长" },
+      "budgetTitle": "每日人均预算",
+      "budgetHeaders": { "tier": "档次", "hotel": "酒店 / 晚", "food": "餐饮 / 天", "transport": "市内交通" },
+      "railTitle": "高铁前往下一城",
+      "railHeaders": { "to": "目的地", "duration": "时长" },
+      "gettingIn": "如何到达",
+      "ctaVisa": "查看签证指南",
+      "ad": "广告"
+    },
+    "beijing": {
+      "eyebrow": "城市 · 240h",
+      "name": "北京",
+      "tagline": "千年帝都 —— 故宫、长城与三千年历史。",
+      "attractions": [
+        { "name": "故宫",         "ticket": "¥60",  "hours": "3 小时" },
+        { "name": "慕田峪长城",   "ticket": "¥95",  "hours": "5 小时" },
+        { "name": "天坛",         "ticket": "¥35",  "hours": "2 小时" },
+        { "name": "颐和园",       "ticket": "¥60",  "hours": "3 小时" }
+      ],
+      "budget": [
+        { "tier": "经济", "hotel": "¥220",  "food": "¥130",  "transport": "¥45（地铁）" },
+        { "tier": "中等", "hotel": "¥680",  "food": "¥290",  "transport": "¥70（地铁 + 滴滴）" },
+        { "tier": "豪华", "hotel": "¥2000", "food": "¥720",  "transport": "¥100（滴滴 + 出租）" }
+      ],
+      "rail": [
+        { "to": "上海",  "duration": "4.5 小时" },
+        { "to": "西安",  "duration": "4.5 小时" },
+        { "to": "成都",  "duration": "7.5 小时" },
+        { "to": "广州",  "duration": "8 小时" }
+      ],
+      "gettingInBody": "北京有两个国际机场：<strong>PEK</strong>（首都）和 <strong>PKX</strong>（大兴）。两者均支持 144h / 240h 过境免签许可。地铁与机场快线可在 30–60 分钟内到达市区。",
+      "ctaBudget": "估算北京预算"
+    },
+    "shanghai": {
+      "eyebrow": "城市 · 240h",
+      "name": "上海",
+      "tagline": "未来感外滩 —— 天际线、饺子和 24 小时活力。",
+      "attractions": [
+        { "name": "外滩",         "ticket": "免费", "hours": "2 小时" },
+        { "name": "豫园",         "ticket": "¥40",  "hours": "2 小时" },
+        { "name": "上海中心",     "ticket": "¥180", "hours": "2 小时" },
+        { "name": "法租界",       "ticket": "免费", "hours": "3 小时" }
+      ],
+      "budget": [
+        { "tier": "经济", "hotel": "¥260",  "food": "¥145",  "transport": "¥35（地铁）" },
+        { "tier": "中等", "hotel": "¥800",  "food": "¥325",  "transport": "¥65（地铁 + 滴滴）" },
+        { "tier": "豪华", "hotel": "¥2300", "food": "¥800",  "transport": "¥95（滴滴 + 出租）" }
+      ],
+      "rail": [
+        { "to": "北京",  "duration": "4.5 小时" },
+        { "to": "杭州",  "duration": "1 小时" },
+        { "to": "苏州",  "duration": "0.5 小时" },
+        { "to": "西安",  "duration": "6 小时" }
+      ],
+      "gettingInBody": "上海有两个机场：<strong>PVG</strong>（浦东，主国际枢纽）和 <strong>SHA</strong>（虹桥，偏国内与地区航线）。磁悬浮从浦东机场到龙阳路 8 分钟，再换地铁 2 号线 50 分钟到市区。",
+      "ctaBudget": "估算上海预算"
+    },
+    "guangzhou": {
+      "eyebrow": "城市 · 240h",
+      "name": "广州",
+      "tagline": "粤菜之都 —— 早茶、珠江夜游与岭南文化。",
+      "attractions": [
+        { "name": "广州塔",       "ticket": "¥150", "hours": "2 小时" },
+        { "name": "陈家祠",       "ticket": "¥10",  "hours": "1.5 小时" },
+        { "name": "珠江夜游",     "ticket": "¥98",  "hours": "1.5 小时" },
+        { "name": "沙面岛",       "ticket": "免费", "hours": "2 小时" }
+      ],
+      "budget": [
+        { "tier": "经济", "hotel": "¥200",  "food": "¥110",  "transport": "¥35（地铁）" },
+        { "tier": "中等", "hotel": "¥580",  "food": "¥255",  "transport": "¥60（地铁 + 滴滴）" },
+        { "tier": "豪华", "hotel": "¥1650", "food": "¥650",  "transport": "¥85（滴滴 + 出租）" }
+      ],
+      "rail": [
+        { "to": "香港",  "duration": "1 小时" },
+        { "to": "深圳",  "duration": "0.5 小时" },
+        { "to": "北京",  "duration": "8 小时" },
+        { "to": "上海",  "duration": "6.5 小时" }
+      ],
+      "gettingInBody": "<strong>CAN</strong>（白云）是广州主机场。地铁 3 号线从机场到体育西路（广州塔附近）45 分钟。出租 30–40 分钟，视路况而定。",
+      "ctaBudget": "估算广州预算"
+    },
+    "chengdu": {
+      "eyebrow": "城市 · 240h",
+      "name": "成都",
+      "tagline": "大熊猫的故乡 —— 川菜、茶馆与慢生活。",
+      "attractions": [
+        { "name": "大熊猫繁育基地", "ticket": "¥55",  "hours": "3 小时" },
+        { "name": "锦里古街",       "ticket": "免费", "hours": "2 小时" },
+        { "name": "武侯祠",         "ticket": "¥50",  "hours": "2 小时" },
+        { "name": "人民公园",       "ticket": "免费", "hours": "1.5 小时" }
+      ],
+      "budget": [
+        { "tier": "经济", "hotel": "¥180",  "food": "¥100",  "transport": "¥30（地铁）" },
+        { "tier": "中等", "hotel": "¥540",  "food": "¥230",  "transport": "¥50（地铁 + 滴滴）" },
+        { "tier": "豪华", "hotel": "¥1580", "food": "¥610",  "transport": "¥80（滴滴 + 出租）" }
+      ],
+      "rail": [
+        { "to": "重庆",  "duration": "1.5 小时" },
+        { "to": "西安",  "duration": "3.5 小时" },
+        { "to": "北京",  "duration": "7.5 小时" },
+        { "to": "上海",  "duration": "9 小时" }
+      ],
+      "gettingInBody": "成都有两个机场：<strong>CTU</strong>（双流，市中心，航班多）和 <strong>TFU</strong>（天府，较新）。地铁 10 号线从天府到市区 40 分钟，双流也是 10 号线 25 分钟。",
+      "ctaBudget": "估算成都预算"
+    },
+    "xian": {
+      "eyebrow": "城市 · 240h",
+      "name": "西安",
+      "tagline": "兵马俑与古丝绸之路起点。",
+      "attractions": [
+        { "name": "兵马俑",         "ticket": "¥120", "hours": "4 小时" },
+        { "name": "城墙（骑行）",   "ticket": "¥54",  "hours": "2 小时" },
+        { "name": "大雁塔",         "ticket": "¥50",  "hours": "1.5 小时" },
+        { "name": "回民街",         "ticket": "免费", "hours": "2 小时" }
+      ],
+      "budget": [
+        { "tier": "经济", "hotel": "¥160",  "food": "¥85",  "transport": "¥30（地铁）" },
+        { "tier": "中等", "hotel": "¥500",  "food": "¥215", "transport": "¥50（地铁 + 滴滴）" },
+        { "tier": "豪华", "hotel": "¥1440", "food": "¥580", "transport": "¥75（滴滴 + 出租）" }
+      ],
+      "rail": [
+        { "to": "北京",  "duration": "4.5 小时" },
+        { "to": "上海",  "duration": "6 小时" },
+        { "to": "成都",  "duration": "3.5 小时" },
+        { "to": "洛阳",  "duration": "1.5 小时" }
+      ],
+      "gettingInBody": "<strong>XIY</strong>（咸阳）是西安机场，位于西北约 40 km。机场城际铁路到西安北站 16 分钟，再换地铁 2 号线到钟楼 20 分钟。",
+      "ctaBudget": "估算西安预算"
+    }
   },
   "planner": {
     "title": "行程规划器",
@@ -132,7 +314,11 @@
     "visaNote240": "240 小时下可从 16+ 口岸入境，可跨多个省份。",
     "dayLabel": "第 {n} 天",
     "addToCalc": "加入预算",
-    "disclaimer": "推荐行程仅供参考。实际高铁时间、景点开放与价格可能变化，请出行前再次确认。"
+    "disclaimer": "推荐行程仅供参考。实际高铁时间、景点开放与价格可能变化，请出行前再次确认。",
+    "breakdownTitle": "想看完整费用拆解？",
+    "breakdownBody": "规划器给出快速估算，预算计算器可以逐项调整 —— 酒店、餐饮、交通、购物都支持。",
+    "breakdownCtaBudget": "打开预算计算器",
+    "breakdownCtaVisa": "先看签证规则"
   },
   "payment": {
     "title": "5 分钟搞定中国支付",
@@ -192,7 +378,13 @@
     "tips": [
       "出发前同时把卡绑到支付宝和微信 —— 两边都装 5 分钟；到北京胡同里再调试可就一小时。",
       "被问「用人民币还是您的本币结算」时，永远选人民币。「本币结算」通常额外收 3-5%。"
-    ]
+    ],
+    "setupTitle": "开通方法",
+    "useTitle": "使用方法",
+    "ctaTitle": "支付搞定后，估算一下总花费。",
+    "ctaBody": "用预算计算器看看在中国每天的 USD 和 CNY 花费。",
+    "ctaBudget": "打开预算计算器",
+    "ctaTransport": "看看交通方式"
   },
   "transport": {
     "title": "在中国怎么出行",
@@ -276,7 +468,12 @@
       "机场落地买 SIM：中国联通国际漫游最稳。也可租便携 WiFi，约 ¥30/天。",
       "务必在国内装好 VPN。即使有漫游，多数西方 App 仍无法访问。常用：ExpressVPN、Astrill、LetsVPN。",
       "酒店与咖啡馆 WiFi 常要求中国手机号收短信验证码。Plan B：eSIM + 中国数据。"
-    ]
+    ],
+    "useTitle": "使用方法",
+    "ctaTitle": "知道怎么走了，来规划路线。",
+    "ctaBody": "用规划器把城市、天数、兴趣组合起来，得出推荐路线与预算估算。",
+    "ctaPlanner": "打开规划器",
+    "ctaBudget": "看看预算"
   },
   "footer": {
     "desc": "面向过境旅客的独立广告支持指南。我们不出售旅游产品、不收佣金。",

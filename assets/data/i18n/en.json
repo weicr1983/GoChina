@@ -48,15 +48,45 @@
         { "name": "Chengdu",  "tag": "Pandas, Sichuan food, slow pace" },
         { "name": "Xi'an",    "tag": "Terracotta Warriors, Silk Road" }
       ]
-    }
+    },
+    "btnReadDetails": "Read details →",
+    "btnVisa": "Visa guide →",
+    "btnPayment": "Payment guide →",
+    "btnTransport": "Transport guide →",
+    "btnOpenCalculator": "Open calculator →",
+    "btnOpen": "Open →",
+    "btnPreview": "Preview →"
   },
   "visa": {
     "title": "144 vs 240 hour visa-free transit",
     "subtitle": "Both policies let you enter China without applying for a visa in advance. The difference is how long you can stay and how widely you can travel.",
     "compareTitle": "Side-by-side",
+    "compare": [
+      { "label": "Stay length",    "v144": "6 days",                   "v240": "10 days" },
+      { "label": "Coverage",       "v144": "Single designated region", "v240": "20+ provinces, cross-region" },
+      { "label": "Best for",       "v144": "Short city breaks",        "v240": "Multi-city itineraries" },
+      { "label": "Approval",       "v144": "~5–10 min at airport",     "v240": "~5–15 min at airport" },
+      { "label": "Documents",      "v144": "Passport, onward ticket",  "v240": "Passport, onward ticket, hotels" }
+    ],
     "eligiblePorts": "Eligible entry ports",
-    "regions": "Covered regions",
-    "docs": "Required documents",
+    "portsIntro": "Both policies share most major airports. The list below is the union of 144h + 240h ports. Always check the latest list on the official site before booking.",
+    "portsHeader": { "code": "Code", "airport": "Airport", "h144": "144h", "h240": "240h" },
+    "ports": [
+      { "code": "PEK", "airport": "Beijing Capital",     "h144": "✓", "h240": "✓" },
+      { "code": "PKX", "airport": "Beijing Daxing",      "h144": "✓", "h240": "✓" },
+      { "code": "PVG", "airport": "Shanghai Pudong",     "h144": "✓", "h240": "✓" },
+      { "code": "SHA", "airport": "Shanghai Hongqiao",   "h144": "—", "h240": "✓" },
+      { "code": "CAN", "airport": "Guangzhou Baiyun",    "h144": "✓", "h240": "✓" },
+      { "code": "SZX", "airport": "Shenzhen Bao'an",     "h144": "✓", "h240": "✓" },
+      { "code": "CTU", "airport": "Chengdu Shuangliu",   "h144": "✓", "h240": "✓" },
+      { "code": "TFU", "airport": "Chengdu Tianfu",      "h144": "—", "h240": "✓" },
+      { "code": "XIY", "airport": "Xi'an Xianyang",      "h144": "✓", "h240": "✓" },
+      { "code": "KMG", "airport": "Kunming Changshui",   "h144": "✓", "h240": "✓" },
+      { "code": "XMN", "airport": "Xiamen Gaoqi",        "h144": "✓", "h240": "✓" },
+      { "code": "WUH", "airport": "Wuhan Tianhe",        "h144": "—", "h240": "✓" },
+      { "code": "TAO", "airport": "Qingdao Jiaodong",    "h144": "—", "h240": "✓" },
+      { "code": "DLC", "airport": "Dalian Zhoushuizi",   "h144": "—", "h240": "✓" }
+    ],
     "applyTitle": "How to apply at the airport",
     "applySteps": [
       "Arrive at an eligible international airport with your passport, onward ticket, and (if needed) a visa for your third destination.",
@@ -69,7 +99,12 @@
       "Your onward ticket must go to a third country / region, not back to your origin.",
       "Hotel staff are required to register foreign guests — carry your passport at all times.",
       "If you enter under 240h, you can now move between many adjacent provinces."
-    ]
+    ],
+    "ctaTitle": "Once you know your visa, plan the trip.",
+    "ctaSubtitle": "Open the budget calculator to see what your days in China will actually cost.",
+    "ctaBudget": "Open budget calculator",
+    "ctaPlanner": "Try the planner",
+    "advertisement": "Advertisement"
   },
   "calculator": {
     "title": "Trip budget calculator",
@@ -98,7 +133,154 @@
     },
     "print": "Print",
     "reset": "Reset",
-    "note": "Estimate based on 2025-2026 Booking / Trip.com averages. Actual prices vary by season. Use this as a starting point, not a quote."
+    "note": "Estimate based on 2025-2026 Booking / Trip.com averages. Actual prices vary by season. Use this as a starting point, not a quote.",
+    "tripTitle": "Your trip",
+    "calcMethod": "How we calculate",
+    "calcBody": "We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail. For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport, attractions and rail tickets scale per person. Shopping and other costs are entered as per-person amounts and multiplied by your group size.",
+    "fxNote": "FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%. Peak season (Chinese New Year, Golden Week) prices can rise 30–50%."
+  },
+  "citiesPage": {
+    "title": "Pick a city, or a few.",
+    "subtitle": "Five gateway cities covered by both 144h and 240h policies. Tap any of them for visa rules, attractions, and a per-city cost breakdown.",
+    "bj": { "name": "Beijing",  "tag": "Forbidden City, Great Wall, hutongs" },
+    "sh": { "name": "Shanghai", "tag": "Future skyline, dumplings, the Bund" },
+    "gz": { "name": "Guangzhou","tag": "Cantonese food, Pearl River, Lingnan culture" },
+    "cd": { "name": "Chengdu",  "tag": "Pandas, Sichuan food, slow pace" },
+    "xa": { "name": "Xi'an",    "tag": "Terracotta Warriors, Silk Road" },
+    "ad": "Advertisement"
+  },
+  "city": {
+    "common": {
+      "mustSee": "Must-see",
+      "mustSeeHeaders": { "place": "Place", "ticket": "Ticket", "hours": "Hours" },
+      "budgetTitle": "Daily budget (per person)",
+      "budgetHeaders": { "tier": "Tier", "hotel": "Hotel / night", "food": "Food / day", "transport": "Local transport" },
+      "railTitle": "Onward by high-speed rail",
+      "railHeaders": { "to": "To", "duration": "Duration" },
+      "gettingIn": "Getting in",
+      "ctaVisa": "Read the visa guide",
+      "ad": "Advertisement"
+    },
+    "beijing": {
+      "eyebrow": "City · 240h",
+      "name": "Beijing",
+      "tagline": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history.",
+      "attractions": [
+        { "name": "The Forbidden City",    "ticket": "$8",  "hours": "3 h" },
+        { "name": "Mutianyu Great Wall",  "ticket": "$12", "hours": "5 h" },
+        { "name": "Temple of Heaven",     "ticket": "$6",  "hours": "2 h" },
+        { "name": "Summer Palace",        "ticket": "$7",  "hours": "3 h" }
+      ],
+      "budget": [
+        { "tier": "Budget", "hotel": "$30",  "food": "$18",  "transport": "$6 (metro)" },
+        { "tier": "Mid",    "hotel": "$95",  "food": "$40",  "transport": "$10 (metro + DiDi)" },
+        { "tier": "Luxury", "hotel": "$280", "food": "$100", "transport": "$14 (DiDi + taxi)" }
+      ],
+      "rail": [
+        { "to": "Shanghai",  "duration": "4.5 h" },
+        { "to": "Xi'an",     "duration": "4.5 h" },
+        { "to": "Chengdu",   "duration": "7.5 h" },
+        { "to": "Guangzhou", "duration": "8 h" }
+      ],
+      "gettingInBody": "Beijing has two international airports: <strong>PEK</strong> (Capital) and <strong>PKX</strong> (Daxing). Both accept 144h and 240h transit permits. Subway and airport express connect both to downtown in 30–60 minutes.",
+      "ctaBudget": "Estimate my Beijing budget"
+    },
+    "shanghai": {
+      "eyebrow": "City · 240h",
+      "name": "Shanghai",
+      "tagline": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse.",
+      "attractions": [
+        { "name": "The Bund",          "ticket": "Free", "hours": "2 h" },
+        { "name": "Yu Garden",         "ticket": "$6",   "hours": "2 h" },
+        { "name": "Shanghai Tower",    "ticket": "$22",  "hours": "2 h" },
+        { "name": "French Concession", "ticket": "Free", "hours": "3 h" }
+      ],
+      "budget": [
+        { "tier": "Budget", "hotel": "$35",  "food": "$20",  "transport": "$5 (metro)" },
+        { "tier": "Mid",    "hotel": "$110", "food": "$45",  "transport": "$9 (metro + DiDi)" },
+        { "tier": "Luxury", "hotel": "$320", "food": "$110", "transport": "$13 (DiDi + taxi)" }
+      ],
+      "rail": [
+        { "to": "Beijing",   "duration": "4.5 h" },
+        { "to": "Hangzhou",  "duration": "1 h" },
+        { "to": "Suzhou",    "duration": "0.5 h" },
+        { "to": "Xi'an",     "duration": "6 h" }
+      ],
+      "gettingInBody": "Shanghai has two airports: <strong>PVG</strong> (Pudong, main international) and <strong>SHA</strong> (Hongqiao, mostly domestic + regional). Maglev from PVG reaches Longyang Rd in 8 minutes; from there, metro Line 2 takes you downtown in 50 minutes.",
+      "ctaBudget": "Estimate my Shanghai budget"
+    },
+    "guangzhou": {
+      "eyebrow": "City · 240h",
+      "name": "Guangzhou",
+      "tagline": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage.",
+      "attractions": [
+        { "name": "Canton Tower",        "ticket": "$15", "hours": "2 h" },
+        { "name": "Chen Clan Ancestral", "ticket": "$3",  "hours": "1.5 h" },
+        { "name": "Pearl River Cruise",  "ticket": "$12", "hours": "1.5 h" },
+        { "name": "Shamian Island",      "ticket": "Free","hours": "2 h" }
+      ],
+      "budget": [
+        { "tier": "Budget", "hotel": "$28",  "food": "$15",  "transport": "$5 (metro)" },
+        { "tier": "Mid",    "hotel": "$80",  "food": "$35",  "transport": "$8 (metro + DiDi)" },
+        { "tier": "Luxury", "hotel": "$230", "food": "$90",  "transport": "$12 (DiDi + taxi)" }
+      ],
+      "rail": [
+        { "to": "Hong Kong", "duration": "1 h" },
+        { "to": "Shenzhen",  "duration": "0.5 h" },
+        { "to": "Beijing",   "duration": "8 h" },
+        { "to": "Shanghai",  "duration": "6.5 h" }
+      ],
+      "gettingInBody": "<strong>CAN</strong> (Baiyun) is Guangzhou's main airport. Metro Line 3 runs from the airport to Tiyu Xilu (Canton Tower area) in 45 minutes. Taxis take 30–40 minutes depending on traffic.",
+      "ctaBudget": "Estimate my Guangzhou budget"
+    },
+    "chengdu": {
+      "eyebrow": "City · 240h",
+      "name": "Chengdu",
+      "tagline": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace.",
+      "attractions": [
+        { "name": "Giant Panda Base",     "ticket": "$12", "hours": "3 h" },
+        { "name": "Jinli Ancient Street", "ticket": "Free", "hours": "2 h" },
+        { "name": "Wuhou Shrine",         "ticket": "$5",  "hours": "2 h" },
+        { "name": "People's Park",        "ticket": "Free", "hours": "1.5 h" }
+      ],
+      "budget": [
+        { "tier": "Budget", "hotel": "$25",  "food": "$14",  "transport": "$4 (metro)" },
+        { "tier": "Mid",    "hotel": "$75",  "food": "$32",  "transport": "$7 (metro + DiDi)" },
+        { "tier": "Luxury", "hotel": "$220", "food": "$85",  "transport": "$11 (DiDi + taxi)" }
+      ],
+      "rail": [
+        { "to": "Chongqing", "duration": "1.5 h" },
+        { "to": "Xi'an",     "duration": "3.5 h" },
+        { "to": "Beijing",   "duration": "7.5 h" },
+        { "to": "Shanghai",  "duration": "9 h" }
+      ],
+      "gettingInBody": "Chengdu has two airports: <strong>CTU</strong> (Shuangliu, central, more flights) and <strong>TFU</strong> (Tianfu, newer). Metro Line 10 connects TFU to downtown in 40 minutes. CTU has Line 10 too, 25 minutes.",
+      "ctaBudget": "Estimate my Chengdu budget"
+    },
+    "xian": {
+      "eyebrow": "City · 240h",
+      "name": "Xi'an",
+      "tagline": "Terracotta Warriors and the ancient Silk Road starting point.",
+      "attractions": [
+        { "name": "Terracotta Army",      "ticket": "$15", "hours": "4 h" },
+        { "name": "City Wall (bike ride)","ticket": "$6",  "hours": "2 h" },
+        { "name": "Big Wild Goose Pagoda","ticket": "$5",  "hours": "1.5 h" },
+        { "name": "Muslim Quarter",       "ticket": "Free", "hours": "2 h" }
+      ],
+      "budget": [
+        { "tier": "Budget", "hotel": "$22",  "food": "$12",  "transport": "$4 (metro)" },
+        { "tier": "Mid",    "hotel": "$70",  "food": "$30",  "transport": "$7 (metro + DiDi)" },
+        { "tier": "Luxury", "hotel": "$200", "food": "$80",  "transport": "$10 (DiDi + taxi)" }
+      ],
+      "rail": [
+        { "to": "Beijing",  "duration": "4.5 h" },
+        { "to": "Shanghai", "duration": "6 h" },
+        { "to": "Chengdu",  "duration": "3.5 h" },
+        { "to": "Luoyang",  "duration": "1.5 h" }
+      ],
+      "gettingInBody": "<strong>XIY</strong> (Xianyang) is Xi'an's airport, about 40 km northwest. The airport intercity railway reaches Xi'an North Railway Station in 16 minutes — from there, metro Line 2 to Bell Tower takes another 20 minutes.",
+      "ctaBudget": "Estimate my Xi'an budget"
+    }
   },
   "planner": {
     "title": "Itinerary planner",
@@ -132,7 +314,11 @@
     "visaNote240": "Under 240h, you can enter via 16+ ports and travel across most provinces.",
     "dayLabel": "Day {n}",
     "addToCalc": "Add to calculator",
-    "disclaimer": "Itinerary is a suggestion based on your inputs. Real rail times, attraction hours, and prices vary — confirm before booking."
+    "disclaimer": "Itinerary is a suggestion based on your inputs. Real rail times, attraction hours, and prices vary — confirm before booking.",
+    "breakdownTitle": "Want the full cost breakdown?",
+    "breakdownBody": "The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.",
+    "breakdownCtaBudget": "Open budget calculator",
+    "breakdownCtaVisa": "Check visa rules first"
   },
   "payment": {
     "title": "Pay like a local in 5 minutes",
@@ -192,7 +378,13 @@
     "tips": [
       "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
       "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
-    ]
+    ],
+    "setupTitle": "How to set it up",
+    "useTitle": "How to use it",
+    "ctaTitle": "Once payments are set, estimate the trip.",
+    "ctaBody": "Use the budget calculator to see what your days in China will cost in USD and CNY.",
+    "ctaBudget": "Open budget calculator",
+    "ctaTransport": "See transport options"
   },
   "transport": {
     "title": "Getting around China",
@@ -276,7 +468,12 @@
       "Buy a SIM at the airport on arrival: China Unicom has the best international roaming. Or rent a pocket WiFi at the airport for ~¥30/day.",
       "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
       "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
-    ]
+    ],
+    "useTitle": "How to use it",
+    "ctaTitle": "Now you know how to move. Plan the route.",
+    "ctaBody": "Use the planner to combine cities, days, and interests. Get a recommended route and an estimated budget.",
+    "ctaPlanner": "Open planner",
+    "ctaBudget": "See budget"
   },
   "footer": {
     "desc": "An independent, ad-supported guide for transit travelers to China. We do not sell tours or take commissions.",
