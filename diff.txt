@@ -1,0 +1,260 @@
+﻿diff --git a/assets/data/i18n/zh-TW.json b/assets/data/i18n/zh-TW.json
+index 37f88ff..69f8565 100644
+--- a/assets/data/i18n/zh-TW.json
++++ b/assets/data/i18n/zh-TW.json
+@@ -90,14 +90,7 @@
+           "tag": "Terracotta Warriors, Silk Road"
+         }
+       ]
+-    },
+-    "btnReadDetails": "Read details →",
+-    "btnVisa": "Visa guide →",
+-    "btnPayment": "Payment guide →",
+-    "btnTransport": "Transport guide →",
+-    "btnOpenCalculator": "Open calculator →",
+-    "btnOpen": "Open →",
+-    "btnPreview": "Preview →"
++    }
+   },
+   "visa": {
+     "title": "144 與 240 小時過境免簽",
+@@ -131,13 +124,7 @@
+       }
+     ],
+     "eligiblePorts": "適用入境口岸",
+-    "portsIntro": "Both policies share most major airports. The list below is the union of 144h + 240h ports. Always check the latest list on the official site before booking.",
+-    "portsHeader": {
+-      "code": "Code",
+-      "airport": "Airport",
+-      "h144": "144h",
+-      "h240": "240h"
+-    },
++    "portsHeader": {},
+     "ports": [
+       {
+         "code": "PEK",
+@@ -236,12 +223,7 @@
+       "Your onward ticket must go to a third country / region, not back to your origin.",
+       "Hotel staff are required to register foreign guests — carry your passport at all times.",
+       "If you enter under 240h, you can now move between many adjacent provinces."
+-    ],
+-    "ctaTitle": "Once you know your visa, plan the trip.",
+-    "ctaSubtitle": "Open the budget calculator to see what your days in China will actually cost.",
+-    "ctaBudget": "Open budget calculator",
+-    "ctaPlanner": "Try the planner",
+-    "advertisement": "Advertisement"
++    ]
+   },
+   "calculator": {
+     "title": "旅遊預算計算器",
+@@ -259,76 +241,26 @@
+     "total": "預估總額",
+     "perCity": "每城",
+     "breakdown": "分項",
+-    "lines": {
+-      "hotel": "Hotels",
+-      "food": "Food & dining",
+-      "transport": "Local transport",
+-      "attraction": "Attractions",
+-      "intercity": "High-speed rail",
+-      "shopping": "Shopping",
+-      "other": "Other"
+-    },
++    "lines": {},
+     "print": "列印",
+     "reset": "重設",
+-    "note": "依據 2025-2026 Booking／Trip.com 平均估算。實際價格隨季節變動，本表僅作起點，非報價。",
+-    "tripTitle": "Your trip",
+-    "calcMethod": "How we calculate",
+-    "calcBody": "We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail. For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport, attractions and rail tickets scale per person. Shopping and other costs are entered as per-person amounts and multiplied by your group size.",
+-    "fxNote": "FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%. Peak season (Chinese New Year, Golden Week) prices can rise 30–50%."
++    "note": "依據 2025-2026 Booking／Trip.com 平均估算。實際價格隨季節變動，本表僅作起點，非報價。"
+   },
+   "citiesPage": {
+-    "title": "Pick a city, or a few.",
+-    "subtitle": "Five gateway cities covered by both 144h and 240h policies. Tap any of them for visa rules, attractions, and a per-city cost breakdown.",
+-    "bj": {
+-      "name": "Beijing",
+-      "tag": "Forbidden City, Great Wall, hutongs"
+-    },
+-    "sh": {
+-      "name": "Shanghai",
+-      "tag": "Future skyline, dumplings, the Bund"
+-    },
+-    "gz": {
+-      "name": "Guangzhou",
+-      "tag": "Cantonese food, Pearl River, Lingnan culture"
+-    },
+-    "cd": {
+-      "name": "Chengdu",
+-      "tag": "Pandas, Sichuan food, slow pace"
+-    },
+-    "xa": {
+-      "name": "Xi'an",
+-      "tag": "Terracotta Warriors, Silk Road"
+-    },
+-    "ad": "Advertisement"
++    "bj": {},
++    "sh": {},
++    "gz": {},
++    "cd": {},
++    "xa": {}
+   },
+   "city": {
+     "common": {
+-      "mustSee": "Must-see",
+-      "mustSeeHeaders": {
+-        "place": "Place",
+-        "ticket": "Ticket",
+-        "hours": "Hours"
+-      },
+-      "budgetTitle": "Daily budget (per person)",
+-      "budgetHeaders": {
+-        "tier": "Tier",
+-        "hotel": "Hotel / night",
+-        "food": "Food / day",
+-        "transport": "Local transport"
+-      },
+-      "railTitle": "Onward by high-speed rail",
+-      "railHeaders": {
+-        "to": "To",
+-        "duration": "Duration"
+-      },
+-      "gettingIn": "Getting in",
+-      "ctaVisa": "Read the visa guide",
+-      "ad": "Advertisement"
++      "mustSeeHeaders": {},
++      "budgetHeaders": {},
++      "railHeaders": {}
+     },
+     "beijing": {
+-      "eyebrow": "City · 240h",
+       "name": "Beijing",
+-      "tagline": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history.",
+       "attractions": [
+         {
+           "name": "The Forbidden City",
+@@ -388,14 +320,10 @@
+           "to": "Guangzhou",
+           "duration": "8 h"
+         }
+-      ],
+-      "gettingInBody": "Beijing has two international airports: <strong>PEK</strong> (Capital) and <strong>PKX</strong> (Daxing). Both accept 144h and 240h transit permits. Subway and airport express connect both to downtown in 30–60 minutes.",
+-      "ctaBudget": "Estimate my Beijing budget"
++      ]
+     },
+     "shanghai": {
+-      "eyebrow": "City · 240h",
+       "name": "Shanghai",
+-      "tagline": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse.",
+       "attractions": [
+         {
+           "name": "The Bund",
+@@ -455,14 +383,10 @@
+           "to": "Xi'an",
+           "duration": "6 h"
+         }
+-      ],
+-      "gettingInBody": "Shanghai has two airports: <strong>PVG</strong> (Pudong, main international) and <strong>SHA</strong> (Hongqiao, mostly domestic + regional). Maglev from PVG reaches Longyang Rd in 8 minutes; from there, metro Line 2 takes you downtown in 50 minutes.",
+-      "ctaBudget": "Estimate my Shanghai budget"
++      ]
+     },
+     "guangzhou": {
+-      "eyebrow": "City · 240h",
+       "name": "Guangzhou",
+-      "tagline": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage.",
+       "attractions": [
+         {
+           "name": "Canton Tower",
+@@ -522,14 +446,10 @@
+           "to": "Shanghai",
+           "duration": "6.5 h"
+         }
+-      ],
+-      "gettingInBody": "<strong>CAN</strong> (Baiyun) is Guangzhou's main airport. Metro Line 3 runs from the airport to Tiyu Xilu (Canton Tower area) in 45 minutes. Taxis take 30–40 minutes depending on traffic.",
+-      "ctaBudget": "Estimate my Guangzhou budget"
++      ]
+     },
+     "chengdu": {
+-      "eyebrow": "City · 240h",
+       "name": "Chengdu",
+-      "tagline": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace.",
+       "attractions": [
+         {
+           "name": "Giant Panda Base",
+@@ -589,14 +509,10 @@
+           "to": "Shanghai",
+           "duration": "9 h"
+         }
+-      ],
+-      "gettingInBody": "Chengdu has two airports: <strong>CTU</strong> (Shuangliu, central, more flights) and <strong>TFU</strong> (Tianfu, newer). Metro Line 10 connects TFU to downtown in 40 minutes. CTU has Line 10 too, 25 minutes.",
+-      "ctaBudget": "Estimate my Chengdu budget"
++      ]
+     },
+     "xian": {
+-      "eyebrow": "City · 240h",
+       "name": "Xi'an",
+-      "tagline": "Terracotta Warriors and the ancient Silk Road starting point.",
+       "attractions": [
+         {
+           "name": "Terracotta Army",
+@@ -656,9 +572,7 @@
+           "to": "Luoyang",
+           "duration": "1.5 h"
+         }
+-      ],
+-      "gettingInBody": "<strong>XIY</strong> (Xianyang) is Xi'an's airport, about 40 km northwest. The airport intercity railway reaches Xi'an North Railway Station in 16 minutes — from there, metro Line 2 to Bell Tower takes another 20 minutes.",
+-      "ctaBudget": "Estimate my Xi'an budget"
++      ]
+     }
+   },
+   "planner": {
+@@ -693,11 +607,7 @@
+     "visaNote240": "240 小時可從 16 個以上口岸入境，並於大多數省份間移動。",
+     "dayLabel": "第 {n} 天",
+     "addToCalc": "加到計算器",
+-    "disclaimer": "行程基於你的輸入而建議。實際車程、景點開放時間與票價可能不同——預訂前請再次確認。",
+-    "breakdownTitle": "Want the full cost breakdown?",
+-    "breakdownBody": "The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.",
+-    "breakdownCtaBudget": "Open budget calculator",
+-    "breakdownCtaVisa": "Check visa rules first"
++    "disclaimer": "行程基於你的輸入而建議。實際車程、景點開放時間與票價可能不同——預訂前請再次確認。"
+   },
+   "payment": {
+     "title": "5 分鐘像當地人一樣付款",
+@@ -757,13 +667,7 @@
+     "tips": [
+       "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
+       "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
+-    ],
+-    "setupTitle": "How to set it up",
+-    "useTitle": "How to use it",
+-    "ctaTitle": "Once payments are set, estimate the trip.",
+-    "ctaBody": "Use the budget calculator to see what your days in China will cost in USD and CNY.",
+-    "ctaBudget": "Open budget calculator",
+-    "ctaTransport": "See transport options"
++    ]
+   },
+   "transport": {
+     "title": "在中國怎麼移動",
+@@ -865,12 +769,7 @@
+       "Buy a SIM at the airport on arrival: China Unicom has the best international roaming. Or rent a pocket WiFi at the airport for ~¥30/day.",
+       "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
+       "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
+-    ],
+-    "useTitle": "How to use it",
+-    "ctaTitle": "Now you know how to move. Plan the route.",
+-    "ctaBody": "Use the planner to combine cities, days, and interests. Get a recommended route and an estimated budget.",
+-    "ctaPlanner": "Open planner",
+-    "ctaBudget": "See budget"
++    ]
+   },
+   "footer": {
+     "desc": "一個獨立、以廣告支持、為過境旅客撰寫的中國指南。我們不賣行程、不抽佣。",
+@@ -887,4 +786,4 @@
+     "ariaEssential": "僅必要",
+     "policy": "隱私政策"
+   }
+-}
+\ No newline at end of file
++}

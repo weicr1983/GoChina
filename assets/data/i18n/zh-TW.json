@@ -24,24 +24,20 @@
       "subtitle": "我們做的是工具，不是文章。拉動滑桿，立即得到答案。",
       "items": [
         {
-          "icon": "plane",
-          "title": "How do I enter?",
-          "text": "144 or 240 hour visa-free at 20+ airports. See eligible ports and required documents."
+          "title": "我該怎麼入境？",
+          "text": "144 或 240 小時過境免簽,適用 20+ 機場。查看適用口岸與所需文件。"
         },
         {
-          "icon": "card",
-          "title": "How do I pay?",
-          "text": "Bind your Visa or Mastercard to Alipay / WeChat Pay in 5 minutes. Cash and ATMs also work."
+          "title": "我該怎麼付款？",
+          "text": "5 分鐘內將 Visa 或 Mastercard 綁定到支付寶/微信支付。現金和 ATM 也都能用。"
         },
         {
-          "icon": "train",
-          "title": "How do I move?",
-          "text": "High-speed rail, metro, DiDi ride-hailing, bike-share — all foreigner-friendly."
+          "title": "我該怎麼移動？",
+          "text": "高鐵、地鐵、滴滴叫車、共享單車——都對外國旅客友善。"
         },
         {
-          "icon": "wallet",
-          "title": "How much does it cost?",
-          "text": "Itemized budget calculator with per-city breakdown in USD and CNY."
+          "title": "要花多少錢？",
+          "text": "分項預算計算器,以美元與人民幣按城市拆分。"
         }
       ]
     },
@@ -74,30 +70,30 @@
       "title": "從一個城市開始",
       "items": [
         {
-          "name": "Shanghai",
-          "tag": "Future skyline, dumplings, the Bund"
+          "name": "上海",
+          "tag": "未來天際線、小籠包、外灘"
         },
         {
-          "name": "Beijing",
-          "tag": "Forbidden City, Great Wall, hutongs"
+          "name": "北京",
+          "tag": "故宮、長城、胡同"
         },
         {
-          "name": "Chengdu",
-          "tag": "Pandas, Sichuan food, slow pace"
+          "name": "成都",
+          "tag": "熊貓、川菜、慢生活"
         },
         {
-          "name": "Xi'an",
-          "tag": "Terracotta Warriors, Silk Road"
+          "name": "西安",
+          "tag": "兵馬俑、絲綢之路"
         }
       ]
     },
-    "btnReadDetails": "Read details →",
-    "btnVisa": "Visa guide →",
-    "btnPayment": "Payment guide →",
-    "btnTransport": "Transport guide →",
-    "btnOpenCalculator": "Open calculator →",
-    "btnOpen": "Open →",
-    "btnPreview": "Preview →"
+    "btnReadDetails": "看詳細 →",
+    "btnVisa": "簽證指南 →",
+    "btnPayment": "支付指南 →",
+    "btnTransport": "交通指南 →",
+    "btnOpenCalculator": "開啟計算器 →",
+    "btnOpen": "開啟 →",
+    "btnPreview": "預覽 →"
   },
   "visa": {
     "title": "144 與 240 小時過境免簽",
@@ -106,142 +102,100 @@
     "compare": [
       {
         "label": "Stay length",
-        "v144": "6 days",
-        "v240": "10 days"
+        "v144": "6 天",
+        "v240": "10 天"
       },
       {
         "label": "Coverage",
-        "v144": "Single designated region",
-        "v240": "20+ provinces, cross-region"
+        "v144": "單一指定區域",
+        "v240": "20+ 省份跨區"
       },
       {
         "label": "Best for",
-        "v144": "Short city breaks",
-        "v240": "Multi-city itineraries"
+        "v144": "短天數城市之旅",
+        "v240": "多城行程"
       },
       {
         "label": "Approval",
-        "v144": "~5–10 min at airport",
-        "v240": "~5–15 min at airport"
+        "v144": "~5–10 分鐘(機場)",
+        "v240": "~5–15 分鐘(機場)"
       },
       {
         "label": "Documents",
-        "v144": "Passport, onward ticket",
-        "v240": "Passport, onward ticket, hotels"
+        "v144": "護照、離境機票",
+        "v240": "護照、機票、訂房"
       }
     ],
     "eligiblePorts": "適用入境口岸",
-    "portsIntro": "Both policies share most major airports. The list below is the union of 144h + 240h ports. Always check the latest list on the official site before booking.",
     "portsHeader": {
-      "code": "Code",
-      "airport": "Airport",
+      "code": "代碼",
+      "airport": "機場",
       "h144": "144h",
       "h240": "240h"
     },
     "ports": [
       {
-        "code": "PEK",
-        "airport": "Beijing Capital",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "北京首都國際機場"
       },
       {
-        "code": "PKX",
-        "airport": "Beijing Daxing",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "北京大興國際機場"
       },
       {
-        "code": "PVG",
-        "airport": "Shanghai Pudong",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "上海浦東國際機場"
       },
       {
-        "code": "SHA",
-        "airport": "Shanghai Hongqiao",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "上海虹橋國際機場"
       },
       {
-        "code": "CAN",
-        "airport": "Guangzhou Baiyun",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "廣州白雲國際機場"
       },
       {
-        "code": "SZX",
-        "airport": "Shenzhen Bao'an",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "深圳寶安國際機場"
       },
       {
-        "code": "CTU",
-        "airport": "Chengdu Shuangliu",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "成都雙流國際機場"
       },
       {
-        "code": "TFU",
-        "airport": "Chengdu Tianfu",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "成都天府國際機場"
       },
       {
-        "code": "XIY",
-        "airport": "Xi'an Xianyang",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "西安咸陽國際機場"
       },
       {
-        "code": "KMG",
-        "airport": "Kunming Changshui",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "昆明長水國際機場"
       },
       {
-        "code": "XMN",
-        "airport": "Xiamen Gaoqi",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "廈門高崎國際機場"
       },
       {
-        "code": "WUH",
-        "airport": "Wuhan Tianhe",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "武漢天河國際機場"
       },
       {
-        "code": "TAO",
-        "airport": "Qingdao Jiaodong",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "青島膠東國際機場"
       },
       {
-        "code": "DLC",
-        "airport": "Dalian Zhoushuizi",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "大連周水子國際機場"
       }
     ],
     "applyTitle": "機場申請流程",
     "applySteps": [
-      "Arrive at an eligible international airport with your passport, onward ticket, and (if needed) a visa for your third destination.",
-      "At the transit counter, request the 144 / 240-hour visa-free transit permit. Border officers verify your documents in 5–15 minutes.",
-      "Collect your permit and enter China. Keep the paper permit with you throughout your stay — hotels will request it at check-in."
+      "抵達適用國際機場,備妥護照、離境機票,以及(若需)第三目的地簽證。",
+      "在過境櫃台申請 144 / 240 小時過境免簽許可,邊檢人員 5–15 分鐘內核驗文件。",
+      "領取許可後入境中國。整段停留期間隨身攜帶紙本,飯店入住時會要求出示。"
     ],
     "tipsTitle": "實用提醒",
     "tips": [
-      "Departure must be from the same or an eligible port in the same region.",
-      "Your onward ticket must go to a third country / region, not back to your origin.",
-      "Hotel staff are required to register foreign guests — carry your passport at all times.",
-      "If you enter under 240h, you can now move between many adjacent provinces."
+      "離境須從同一口岸或同區域內的適用口岸出發。",
+      "離境機票的目的地須為第三國/地區,不得返回出發地。",
+      "飯店依法須登記外國旅客,請隨身攜帶護照。",
+      "240 小時入境者,可在多個相鄰省份之間移動。"
     ],
-    "ctaTitle": "Once you know your visa, plan the trip.",
-    "ctaSubtitle": "Open the budget calculator to see what your days in China will actually cost.",
-    "ctaBudget": "Open budget calculator",
-    "ctaPlanner": "Try the planner",
-    "advertisement": "Advertisement"
+    "portsIntro": "兩種政策共用大多數主要機場。下方列表為 144h 與 240h 口岸的合集。預訂前請查閱官方最新名單。",
+    "ctaTitle": "確定簽證後,規劃行程。",
+    "ctaSubtitle": "開啟預算計算器,看看在中國的天數實際要花多少。",
+    "ctaBudget": "開啟預算計算器",
+    "ctaPlanner": "試試行程規劃器",
+    "advertisement": "廣告"
   },
   "calculator": {
     "title": "旅遊預算計算器",
@@ -260,405 +214,315 @@
     "perCity": "每城",
     "breakdown": "分項",
     "lines": {
-      "hotel": "Hotels",
-      "food": "Food & dining",
-      "transport": "Local transport",
-      "attraction": "Attractions",
-      "intercity": "High-speed rail",
-      "shopping": "Shopping",
-      "other": "Other"
+      "hotel": "住宿",
+      "food": "餐飲",
+      "transport": "市內交通",
+      "attraction": "景點門票",
+      "intercity": "高鐵",
+      "shopping": "購物",
+      "other": "其他"
     },
     "print": "列印",
     "reset": "重設",
     "note": "依據 2025-2026 Booking／Trip.com 平均估算。實際價格隨季節變動，本表僅作起點，非報價。",
-    "tripTitle": "Your trip",
-    "calcMethod": "How we calculate",
-    "calcBody": "We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail. For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport, attractions and rail tickets scale per person. Shopping and other costs are entered as per-person amounts and multiplied by your group size.",
-    "fxNote": "FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%. Peak season (Chinese New Year, Golden Week) prices can rise 30–50%."
+    "tripTitle": "你的行程",
+    "calcMethod": "如何計算",
+    "calcBody": "我們採用 Booking.com、Trip.com 與 12306 高鐵 2025–2026 年平均數據。1 人以上時,住宿按房間計費(每 2 人 1 間);餐飲、交通、景點和高鐵按人計費。購物與其他費用以每人金額輸入,再乘以同行人數。",
+    "fxNote": "匯率:1 USD = 7.20 CNY(更新於 2026-01-15)。銀行實際匯率會有 1–3% 浮動。旺季(春節、國慶)價格可能上漲 30–50%。"
   },
   "citiesPage": {
-    "title": "Pick a city, or a few.",
-    "subtitle": "Five gateway cities covered by both 144h and 240h policies. Tap any of them for visa rules, attractions, and a per-city cost breakdown.",
     "bj": {
-      "name": "Beijing",
-      "tag": "Forbidden City, Great Wall, hutongs"
+      "name": "北京",
+      "tag": "故宮、長城、胡同"
     },
     "sh": {
-      "name": "Shanghai",
-      "tag": "Future skyline, dumplings, the Bund"
+      "name": "上海",
+      "tag": "未來天際線、小籠包、外灘"
     },
     "gz": {
-      "name": "Guangzhou",
-      "tag": "Cantonese food, Pearl River, Lingnan culture"
+      "name": "廣州",
+      "tag": "粵菜、珠江、嶺南文化"
     },
     "cd": {
-      "name": "Chengdu",
-      "tag": "Pandas, Sichuan food, slow pace"
+      "name": "成都",
+      "tag": "熊貓、川菜、慢生活"
     },
     "xa": {
-      "name": "Xi'an",
-      "tag": "Terracotta Warriors, Silk Road"
+      "name": "西安",
+      "tag": "兵馬俑、絲綢之路"
     },
-    "ad": "Advertisement"
+    "title": "挑一個城市,或幾個。",
+    "subtitle": "五座門戶城市皆適用 144h 與 240h 政策。點任一城市查看簽證、景點與分城預算。",
+    "ad": "廣告"
   },
   "city": {
     "common": {
-      "mustSee": "Must-see",
       "mustSeeHeaders": {
-        "place": "Place",
-        "ticket": "Ticket",
-        "hours": "Hours"
+        "place": "景點",
+        "ticket": "票價",
+        "hours": "遊覽時間"
       },
-      "budgetTitle": "Daily budget (per person)",
       "budgetHeaders": {
-        "tier": "Tier",
-        "hotel": "Hotel / night",
-        "food": "Food / day",
-        "transport": "Local transport"
+        "tier": "等級",
+        "hotel": "飯店/晚",
+        "food": "餐飲/日",
+        "transport": "市內交通"
       },
-      "railTitle": "Onward by high-speed rail",
       "railHeaders": {
-        "to": "To",
-        "duration": "Duration"
+        "to": "目的地",
+        "duration": "所需時間"
       },
-      "gettingIn": "Getting in",
-      "ctaVisa": "Read the visa guide",
-      "ad": "Advertisement"
+      "mustSee": "必遊景點",
+      "budgetTitle": "每日預算(每人)",
+      "railTitle": "下一站高鐵",
+      "gettingIn": "如何入境",
+      "ctaVisa": "查看簽證指南",
+      "ad": "廣告"
     },
     "beijing": {
-      "eyebrow": "City · 240h",
-      "name": "Beijing",
-      "tagline": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history.",
+      "name": "北京",
       "attractions": [
         {
-          "name": "The Forbidden City",
-          "ticket": "$8",
-          "hours": "3 h"
+          "name": "故宮博物院"
         },
         {
-          "name": "Mutianyu Great Wall",
-          "ticket": "$12",
-          "hours": "5 h"
+          "name": "慕田峪長城"
         },
         {
-          "name": "Temple of Heaven",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "天壇"
         },
         {
-          "name": "Summer Palace",
-          "ticket": "$7",
-          "hours": "3 h"
+          "name": "頤和園"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$30",
-          "food": "$18",
-          "transport": "$6 (metro)"
+          "tier": "經濟",
+          "transport": "$6(地鐵)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$95",
-          "food": "$40",
-          "transport": "$10 (metro + DiDi)"
+          "tier": "中等",
+          "transport": "$10(地鐵+滴滴)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$280",
-          "food": "$100",
-          "transport": "$14 (DiDi + taxi)"
+          "tier": "豪華",
+          "transport": "$14(滴滴+計程車)"
         }
       ],
       "rail": [
         {
-          "to": "Shanghai",
-          "duration": "4.5 h"
+          "to": "上海"
         },
         {
-          "to": "Xi'an",
-          "duration": "4.5 h"
+          "to": "西安"
         },
         {
-          "to": "Chengdu",
-          "duration": "7.5 h"
+          "to": "成都"
         },
         {
-          "to": "Guangzhou",
-          "duration": "8 h"
+          "to": "廣州"
         }
       ],
-      "gettingInBody": "Beijing has two international airports: <strong>PEK</strong> (Capital) and <strong>PKX</strong> (Daxing). Both accept 144h and 240h transit permits. Subway and airport express connect both to downtown in 30–60 minutes.",
-      "ctaBudget": "Estimate my Beijing budget"
+      "eyebrow": "城市 · 240h",
+      "tagline": "千年帝都——故宮、長城、三千年歷史。",
+      "gettingInBody": "北京有兩座國際機場:<strong>PEK</strong>(首都)與<strong>PKX</strong>(大興)。皆接受 144h 與 240h 過境免簽。地鐵與機場快線 30–60 分鐘到市區。",
+      "ctaBudget": "估算北京預算"
     },
     "shanghai": {
-      "eyebrow": "City · 240h",
-      "name": "Shanghai",
-      "tagline": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse.",
+      "name": "上海",
       "attractions": [
         {
-          "name": "The Bund",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "外灘"
         },
         {
-          "name": "Yu Garden",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "豫園"
         },
         {
-          "name": "Shanghai Tower",
-          "ticket": "$22",
-          "hours": "2 h"
+          "name": "上海中心大廈"
         },
         {
-          "name": "French Concession",
-          "ticket": "Free",
-          "hours": "3 h"
+          "name": "法租界"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$35",
-          "food": "$20",
-          "transport": "$5 (metro)"
+          "tier": "經濟",
+          "transport": "$5(地鐵)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$110",
-          "food": "$45",
-          "transport": "$9 (metro + DiDi)"
+          "tier": "中等",
+          "transport": "$9(地鐵+滴滴)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$320",
-          "food": "$110",
-          "transport": "$13 (DiDi + taxi)"
+          "tier": "豪華",
+          "transport": "$13(滴滴+計程車)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "北京"
         },
         {
-          "to": "Hangzhou",
-          "duration": "1 h"
+          "to": "杭州"
         },
         {
-          "to": "Suzhou",
-          "duration": "0.5 h"
+          "to": "蘇州"
         },
         {
-          "to": "Xi'an",
-          "duration": "6 h"
+          "to": "西安"
         }
       ],
-      "gettingInBody": "Shanghai has two airports: <strong>PVG</strong> (Pudong, main international) and <strong>SHA</strong> (Hongqiao, mostly domestic + regional). Maglev from PVG reaches Longyang Rd in 8 minutes; from there, metro Line 2 takes you downtown in 50 minutes.",
-      "ctaBudget": "Estimate my Shanghai budget"
+      "eyebrow": "城市 · 240h",
+      "tagline": "未來外灘——天際線、小籠包、24 小時不夜城。",
+      "gettingInBody": "上海有兩座機場:<strong>PVG</strong>(浦東,主國際)與<strong>SHA</strong>(虹橋,以國內+地區為主)。磁浮列車從 PVG 到龍陽路 8 分鐘,再轉地鐵 2 號線約 50 分鐘到市中心。",
+      "ctaBudget": "估算上海預算"
     },
     "guangzhou": {
-      "eyebrow": "City · 240h",
-      "name": "Guangzhou",
-      "tagline": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage.",
+      "name": "廣州",
       "attractions": [
         {
-          "name": "Canton Tower",
-          "ticket": "$15",
-          "hours": "2 h"
+          "name": "廣州塔"
         },
         {
-          "name": "Chen Clan Ancestral",
-          "ticket": "$3",
-          "hours": "1.5 h"
+          "name": "陳家祠"
         },
         {
-          "name": "Pearl River Cruise",
-          "ticket": "$12",
-          "hours": "1.5 h"
+          "name": "珠江夜遊"
         },
         {
-          "name": "Shamian Island",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "沙面島"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$28",
-          "food": "$15",
-          "transport": "$5 (metro)"
+          "tier": "經濟",
+          "transport": "$5(地鐵)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$80",
-          "food": "$35",
-          "transport": "$8 (metro + DiDi)"
+          "tier": "中等",
+          "transport": "$8(地鐵+滴滴)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$230",
-          "food": "$90",
-          "transport": "$12 (DiDi + taxi)"
+          "tier": "豪華",
+          "transport": "$12(滴滴+計程車)"
         }
       ],
       "rail": [
         {
-          "to": "Hong Kong",
-          "duration": "1 h"
+          "to": "香港"
         },
         {
-          "to": "Shenzhen",
-          "duration": "0.5 h"
+          "to": "深圳"
         },
         {
-          "to": "Beijing",
-          "duration": "8 h"
+          "to": "北京"
         },
         {
-          "to": "Shanghai",
-          "duration": "6.5 h"
+          "to": "上海"
         }
       ],
-      "gettingInBody": "<strong>CAN</strong> (Baiyun) is Guangzhou's main airport. Metro Line 3 runs from the airport to Tiyu Xilu (Canton Tower area) in 45 minutes. Taxis take 30–40 minutes depending on traffic.",
-      "ctaBudget": "Estimate my Guangzhou budget"
+      "eyebrow": "城市 · 240h",
+      "tagline": "粵菜之都——點心、珠江夜遊、嶺南風情。",
+      "gettingInBody": "<strong>CAN</strong>(白雲)是廣州主要機場。地鐵 3 號線從機場到體育西路(廣州塔一帶)約 45 分鐘。計程車視路況 30–40 分鐘。",
+      "ctaBudget": "估算廣州預算"
     },
     "chengdu": {
-      "eyebrow": "City · 240h",
-      "name": "Chengdu",
-      "tagline": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace.",
+      "name": "成都",
       "attractions": [
         {
-          "name": "Giant Panda Base",
-          "ticket": "$12",
-          "hours": "3 h"
+          "name": "大熊貓繁育研究基地"
         },
         {
-          "name": "Jinli Ancient Street",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "錦里古街"
         },
         {
-          "name": "Wuhou Shrine",
-          "ticket": "$5",
-          "hours": "2 h"
+          "name": "武侯祠"
         },
         {
-          "name": "People's Park",
-          "ticket": "Free",
-          "hours": "1.5 h"
+          "name": "人民公園"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$25",
-          "food": "$14",
-          "transport": "$4 (metro)"
+          "tier": "經濟",
+          "transport": "$4(地鐵)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$75",
-          "food": "$32",
-          "transport": "$7 (metro + DiDi)"
+          "tier": "中等",
+          "transport": "$7(地鐵+滴滴)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$220",
-          "food": "$85",
-          "transport": "$11 (DiDi + taxi)"
+          "tier": "豪華",
+          "transport": "$11(滴滴+計程車)"
         }
       ],
       "rail": [
         {
-          "to": "Chongqing",
-          "duration": "1.5 h"
+          "to": "重慶"
         },
         {
-          "to": "Xi'an",
-          "duration": "3.5 h"
+          "to": "西安"
         },
         {
-          "to": "Beijing",
-          "duration": "7.5 h"
+          "to": "北京"
         },
         {
-          "to": "Shanghai",
-          "duration": "9 h"
+          "to": "上海"
         }
       ],
-      "gettingInBody": "Chengdu has two airports: <strong>CTU</strong> (Shuangliu, central, more flights) and <strong>TFU</strong> (Tianfu, newer). Metro Line 10 connects TFU to downtown in 40 minutes. CTU has Line 10 too, 25 minutes.",
-      "ctaBudget": "Estimate my Chengdu budget"
+      "eyebrow": "城市 · 240h",
+      "tagline": "熊貓的家鄉——川菜、茶館、慢生活。",
+      "gettingInBody": "成都有兩座機場:<strong>CTU</strong>(雙流,位於市區,航班較多)與<strong>TFU</strong>(天府,較新)。地鐵 10 號線連接 TFU 到市區約 40 分鐘;CTU 同線約 25 分鐘。",
+      "ctaBudget": "估算成都預算"
     },
     "xian": {
-      "eyebrow": "City · 240h",
-      "name": "Xi'an",
-      "tagline": "Terracotta Warriors and the ancient Silk Road starting point.",
+      "name": "西安",
       "attractions": [
         {
-          "name": "Terracotta Army",
-          "ticket": "$15",
-          "hours": "4 h"
+          "name": "兵馬俑"
         },
         {
-          "name": "City Wall (bike ride)",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "城牆(自行車)"
         },
         {
-          "name": "Big Wild Goose Pagoda",
-          "ticket": "$5",
-          "hours": "1.5 h"
+          "name": "大雁塔"
         },
         {
-          "name": "Muslim Quarter",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "回民街"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$22",
-          "food": "$12",
-          "transport": "$4 (metro)"
+          "tier": "經濟",
+          "transport": "$4(地鐵)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$70",
-          "food": "$30",
-          "transport": "$7 (metro + DiDi)"
+          "tier": "中等",
+          "transport": "$7(地鐵+滴滴)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$200",
-          "food": "$80",
-          "transport": "$10 (DiDi + taxi)"
+          "tier": "豪華",
+          "transport": "$10(滴滴+計程車)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "北京"
         },
         {
-          "to": "Shanghai",
-          "duration": "6 h"
+          "to": "上海"
         },
         {
-          "to": "Chengdu",
-          "duration": "3.5 h"
+          "to": "成都"
         },
         {
-          "to": "Luoyang",
-          "duration": "1.5 h"
+          "to": "洛陽"
         }
       ],
-      "gettingInBody": "<strong>XIY</strong> (Xianyang) is Xi'an's airport, about 40 km northwest. The airport intercity railway reaches Xi'an North Railway Station in 16 minutes — from there, metro Line 2 to Bell Tower takes another 20 minutes.",
-      "ctaBudget": "Estimate my Xi'an budget"
+      "eyebrow": "城市 · 240h",
+      "tagline": "兵馬俑與千年絲路起點。",
+      "gettingInBody": "<strong>XIY</strong>(咸陽)是西安機場,位於市區西北方約 40 公里。機場城際鐵路 16 分鐘直達西安北站,轉地鐵 2 號線到鐘樓約 20 分鐘。",
+      "ctaBudget": "估算西安預算"
     }
   },
   "planner": {
@@ -694,10 +558,10 @@
     "dayLabel": "第 {n} 天",
     "addToCalc": "加到計算器",
     "disclaimer": "行程基於你的輸入而建議。實際車程、景點開放時間與票價可能不同——預訂前請再次確認。",
-    "breakdownTitle": "Want the full cost breakdown?",
-    "breakdownBody": "The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.",
-    "breakdownCtaBudget": "Open budget calculator",
-    "breakdownCtaVisa": "Check visa rules first"
+    "breakdownTitle": "想要完整費用分項嗎？",
+    "breakdownBody": "規劃器只給快速估算。計算器可以微調每一項——住宿、餐飲、交通、購物。",
+    "breakdownCtaBudget": "開啟預算計算器",
+    "breakdownCtaVisa": "先確認簽證規則"
   },
   "payment": {
     "title": "5 分鐘像當地人一樣付款",
@@ -758,12 +622,12 @@
       "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
       "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
     ],
-    "setupTitle": "How to set it up",
-    "useTitle": "How to use it",
-    "ctaTitle": "Once payments are set, estimate the trip.",
-    "ctaBody": "Use the budget calculator to see what your days in China will cost in USD and CNY.",
-    "ctaBudget": "Open budget calculator",
-    "ctaTransport": "See transport options"
+    "setupTitle": "如何設定",
+    "useTitle": "如何使用",
+    "ctaTitle": "付款設定完成後,估算行程。",
+    "ctaBody": "用預算計算器看看在中國的天數以美元與人民幣計算的成本。",
+    "ctaBudget": "開啟預算計算器",
+    "ctaTransport": "查看交通選項"
   },
   "transport": {
     "title": "在中國怎麼移動",
@@ -866,11 +730,11 @@
       "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
       "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
     ],
-    "useTitle": "How to use it",
-    "ctaTitle": "Now you know how to move. Plan the route.",
-    "ctaBody": "Use the planner to combine cities, days, and interests. Get a recommended route and an estimated budget.",
-    "ctaPlanner": "Open planner",
-    "ctaBudget": "See budget"
+    "useTitle": "如何使用",
+    "ctaTitle": "知道怎麼移動了,規劃路線吧。",
+    "ctaBody": "用規劃器組合城市、天數與興趣,得到推薦路線與預估預算。",
+    "ctaPlanner": "開啟規劃器",
+    "ctaBudget": "查看預算"
   },
   "footer": {
     "desc": "一個獨立、以廣告支持、為過境旅客撰寫的中國指南。我們不賣行程、不抽佣。",

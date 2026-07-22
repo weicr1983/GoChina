@@ -24,24 +24,20 @@
       "subtitle": "Herramientas, no artículos. Mueve los deslizadores, obtén la respuesta.",
       "items": [
         {
-          "icon": "plane",
-          "title": "How do I enter?",
-          "text": "144 or 240 hour visa-free at 20+ airports. See eligible ports and required documents."
+          "title": "¿Cómo entro?",
+          "text": "Tránsito sin visado 144/240 h en 20+ aeropuertos."
         },
         {
-          "icon": "card",
-          "title": "How do I pay?",
-          "text": "Bind your Visa or Mastercard to Alipay / WeChat Pay in 5 minutes. Cash and ATMs also work."
+          "title": "¿Cómo pago?",
+          "text": "Vincula Visa/Mastercard a Alipay/WeChat Pay en 5 min."
         },
         {
-          "icon": "train",
-          "title": "How do I move?",
-          "text": "High-speed rail, metro, DiDi ride-hailing, bike-share — all foreigner-friendly."
+          "title": "¿Cómo me muevo?",
+          "text": "Tren de alta velocidad, metro, DiDi, bicis compartidas — todo amigable."
         },
         {
-          "icon": "wallet",
-          "title": "How much does it cost?",
-          "text": "Itemized budget calculator with per-city breakdown in USD and CNY."
+          "title": "¿Cuánto cuesta?",
+          "text": "Calculadora de presupuesto detallada (USD/CNY, por ciudad)."
         }
       ]
     },
@@ -74,30 +70,30 @@
       "title": "Empieza por una ciudad",
       "items": [
         {
-          "name": "Shanghai",
-          "tag": "Future skyline, dumplings, the Bund"
+          "name": "Shanghái",
+          "tag": "Skyline futurista, xiaolongbao, el Bund"
         },
         {
-          "name": "Beijing",
-          "tag": "Forbidden City, Great Wall, hutongs"
+          "name": "Pekín",
+          "tag": "Ciudad Prohibida, Muralla, hutongs"
         },
         {
-          "name": "Chengdu",
-          "tag": "Pandas, Sichuan food, slow pace"
+          "name": "Chengdú",
+          "tag": "Pandas, cocina sichuanesa, ritmo pausado"
         },
         {
-          "name": "Xi'an",
-          "tag": "Terracotta Warriors, Silk Road"
+          "name": "Xi’an",
+          "tag": "Ejército de terracota, Ruta de la Seda"
         }
       ]
     },
-    "btnReadDetails": "Read details →",
-    "btnVisa": "Visa guide →",
-    "btnPayment": "Payment guide →",
-    "btnTransport": "Transport guide →",
-    "btnOpenCalculator": "Open calculator →",
-    "btnOpen": "Open →",
-    "btnPreview": "Preview →"
+    "btnReadDetails": "Ver detalles →",
+    "btnVisa": "Guía de visado →",
+    "btnPayment": "Guía de pago →",
+    "btnTransport": "Guía de transporte →",
+    "btnOpenCalculator": "Abrir calculadora →",
+    "btnOpen": "Abrir →",
+    "btnPreview": "Vista previa →"
   },
   "visa": {
     "title": "Sin visado 144 vs 240 horas",
@@ -105,143 +101,101 @@
     "compareTitle": "Comparación",
     "compare": [
       {
-        "label": "Stay length",
-        "v144": "6 days",
-        "v240": "10 days"
+        "label": "Dauer",
+        "v144": "6 días",
+        "v240": "10 días"
       },
       {
-        "label": "Coverage",
-        "v144": "Single designated region",
-        "v240": "20+ provinces, cross-region"
+        "label": "Geltungsbereich",
+        "v144": "Una región",
+        "v240": "20+ provincias"
       },
       {
-        "label": "Best for",
-        "v144": "Short city breaks",
-        "v240": "Multi-city itineraries"
+        "label": "Ideal für",
+        "v144": "Escapadas cortas",
+        "v240": "Multi-ciudad"
       },
       {
-        "label": "Approval",
-        "v144": "~5–10 min at airport",
-        "v240": "~5–15 min at airport"
+        "label": "Genehmigung",
+        "v144": "~5–10 min",
+        "v240": "~5–15 min"
       },
       {
-        "label": "Documents",
-        "v144": "Passport, onward ticket",
-        "v240": "Passport, onward ticket, hotels"
+        "label": "Dokumente",
+        "v144": "Pasaporte, billete",
+        "v240": "Pasaporte, billete, hoteles"
       }
     ],
     "eligiblePorts": "Puertos elegibles",
-    "portsIntro": "Both policies share most major airports. The list below is the union of 144h + 240h ports. Always check the latest list on the official site before booking.",
     "portsHeader": {
-      "code": "Code",
-      "airport": "Airport",
-      "h144": "144h",
-      "h240": "240h"
+      "code": "Código",
+      "airport": "Aeropuerto",
+      "h144": "144 h",
+      "h240": "240 h"
     },
     "ports": [
       {
-        "code": "PEK",
-        "airport": "Beijing Capital",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Pekín Capital"
       },
       {
-        "code": "PKX",
-        "airport": "Beijing Daxing",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Pekín-Daxing"
       },
       {
-        "code": "PVG",
-        "airport": "Shanghai Pudong",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Shanghái-Pudong"
       },
       {
-        "code": "SHA",
-        "airport": "Shanghai Hongqiao",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "Shanghái-Hongqiao"
       },
       {
-        "code": "CAN",
-        "airport": "Guangzhou Baiyun",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Cantón-Baiyun"
       },
       {
-        "code": "SZX",
-        "airport": "Shenzhen Bao'an",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Shenzhen-Bao’an"
       },
       {
-        "code": "CTU",
-        "airport": "Chengdu Shuangliu",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Chengdú-Shuangliu"
       },
       {
-        "code": "TFU",
-        "airport": "Chengdu Tianfu",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "Chengdú-Tianfu"
       },
       {
-        "code": "XIY",
-        "airport": "Xi'an Xianyang",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Xi’an-Xianyang"
       },
       {
-        "code": "KMG",
-        "airport": "Kunming Changshui",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Kunming-Changshui"
       },
       {
-        "code": "XMN",
-        "airport": "Xiamen Gaoqi",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "Xiamen-Gaoqi"
       },
       {
-        "code": "WUH",
-        "airport": "Wuhan Tianhe",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "Wuhan-Tianhe"
       },
       {
-        "code": "TAO",
-        "airport": "Qingdao Jiaodong",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "Qingdao-Jiaodong"
       },
       {
-        "code": "DLC",
-        "airport": "Dalian Zhoushuizi",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "Dalian-Zhoushuizi"
       }
     ],
-    "applyTitle": "Cómo tramitar en el aeropuerto",
+    "applyTitle": "Trámite en el aeropuerto",
     "applySteps": [
-      "Arrive at an eligible international airport with your passport, onward ticket, and (if needed) a visa for your third destination.",
-      "At the transit counter, request the 144 / 240-hour visa-free transit permit. Border officers verify your documents in 5–15 minutes.",
-      "Collect your permit and enter China. Keep the paper permit with you throughout your stay — hotels will request it at check-in."
+      "Llega a un aeropuerto elegible con pasaporte, billete de salida y (si hace falta) visado tercero.",
+      "Solicita el permiso 144/240 h en el mostrador. Verificación 5–15 min.",
+      "Recoge el permiso y entra. Llévalo contigo — lo piden en el hotel."
     ],
     "tipsTitle": "Consejos prácticos",
     "tips": [
-      "Departure must be from the same or an eligible port in the same region.",
-      "Your onward ticket must go to a third country / region, not back to your origin.",
-      "Hotel staff are required to register foreign guests — carry your passport at all times.",
-      "If you enter under 240h, you can now move between many adjacent provinces."
+      "La salida debe ser desde el mismo puerto o uno elegible de la misma región.",
+      "El billete de salida debe ir a un tercer país, no al origen.",
+      "Los hoteles deben registrar extranjeros — lleva siempre el pasaporte.",
+      "Con 240 h puedes moverte entre provincias vecinas."
     ],
-    "ctaTitle": "Once you know your visa, plan the trip.",
-    "ctaSubtitle": "Open the budget calculator to see what your days in China will actually cost.",
-    "ctaBudget": "Open budget calculator",
-    "ctaPlanner": "Try the planner",
-    "advertisement": "Advertisement"
+    "portsIntro": "Ambas políticas comparten la mayoría de grandes aeropuertos. Lista = unión 144/240 h. Consulta la lista oficial antes de reservar.",
+    "ctaTitle": "Visado decidido — planifica el viaje.",
+    "ctaSubtitle": "Abre la calculadora y conoce el coste real de tus días en China.",
+    "ctaBudget": "Abrir calculadora",
+    "ctaPlanner": "Probar el planificador",
+    "advertisement": "Publicidad"
   },
   "calculator": {
     "title": "Calculadora de presupuesto",
@@ -260,405 +214,315 @@
     "perCity": "Por ciudad",
     "breakdown": "Detalle",
     "lines": {
-      "hotel": "Hotels",
-      "food": "Food & dining",
-      "transport": "Local transport",
-      "attraction": "Attractions",
-      "intercity": "High-speed rail",
-      "shopping": "Shopping",
-      "other": "Other"
+      "hotel": "Hoteles",
+      "food": "Comidas",
+      "transport": "Transporte local",
+      "attraction": "Atracciones",
+      "intercity": "AVE",
+      "shopping": "Compras",
+      "other": "Otros"
     },
     "print": "Imprimir",
     "reset": "Reiniciar",
     "note": "Estimación con medias Booking/Trip.com 2025-2026. Los precios varían por temporada — es un punto de partida.",
-    "tripTitle": "Your trip",
-    "calcMethod": "How we calculate",
-    "calcBody": "We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail. For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport, attractions and rail tickets scale per person. Shopping and other costs are entered as per-person amounts and multiplied by your group size.",
-    "fxNote": "FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%. Peak season (Chinese New Year, Golden Week) prices can rise 30–50%."
+    "tripTitle": "Tu viaje",
+    "calcMethod": "Cómo calculamos",
+    "calcBody": "Promedios 2025–2026 de Booking.com, Trip.com y 12306. Con 2+ viajeros, hotel por habitación (1/2 pers.); comida, transporte, atracciones y billetes por persona. Compras y otros por persona × grupo.",
+    "fxNote": "Tipo de cambio: 1 USD = 7,20 CNY (15/01/2026). Tasas bancarias ±1–3 %. Temporada alta +30–50 %."
   },
   "citiesPage": {
-    "title": "Pick a city, or a few.",
-    "subtitle": "Five gateway cities covered by both 144h and 240h policies. Tap any of them for visa rules, attractions, and a per-city cost breakdown.",
     "bj": {
-      "name": "Beijing",
-      "tag": "Forbidden City, Great Wall, hutongs"
+      "name": "Pekín",
+      "tag": "Ciudad Prohibida, Muralla, hutongs"
     },
     "sh": {
-      "name": "Shanghai",
-      "tag": "Future skyline, dumplings, the Bund"
+      "name": "Shanghái",
+      "tag": "Skyline futurista, xiaolongbao, el Bund"
     },
     "gz": {
-      "name": "Guangzhou",
-      "tag": "Cantonese food, Pearl River, Lingnan culture"
+      "name": "Cantón",
+      "tag": "Cocina cantonesa, río de las Perlas, Lingnan"
     },
     "cd": {
-      "name": "Chengdu",
-      "tag": "Pandas, Sichuan food, slow pace"
+      "name": "Chengdú",
+      "tag": "Pandas, cocina sichuanesa, ritmo pausado"
     },
     "xa": {
-      "name": "Xi'an",
-      "tag": "Terracotta Warriors, Silk Road"
+      "name": "Xi’an",
+      "tag": "Ejército de terracota, Ruta de la Seda"
     },
-    "ad": "Advertisement"
+    "title": "Elige una ciudad, o varias.",
+    "subtitle": "5 ciudades de entrada 144/240 h. Toca para visados, atracciones, presupuesto.",
+    "ad": "Publicidad"
   },
   "city": {
     "common": {
-      "mustSee": "Must-see",
       "mustSeeHeaders": {
-        "place": "Place",
-        "ticket": "Ticket",
-        "hours": "Hours"
+        "place": "Lugar",
+        "ticket": "Entrada",
+        "hours": "Duración"
       },
-      "budgetTitle": "Daily budget (per person)",
       "budgetHeaders": {
-        "tier": "Tier",
-        "hotel": "Hotel / night",
-        "food": "Food / day",
-        "transport": "Local transport"
+        "tier": "Nivel",
+        "hotel": "Hotel/noche",
+        "food": "Comida/día",
+        "transport": "Transporte local"
       },
-      "railTitle": "Onward by high-speed rail",
       "railHeaders": {
-        "to": "To",
-        "duration": "Duration"
+        "to": "Destino",
+        "duration": "Duración"
       },
-      "gettingIn": "Getting in",
-      "ctaVisa": "Read the visa guide",
-      "ad": "Advertisement"
+      "mustSee": "Imprescindibles",
+      "budgetTitle": "Presupuesto diario (por persona)",
+      "railTitle": "Siguiente en AVE",
+      "gettingIn": "Llegada a la ciudad",
+      "ctaVisa": "Ver guía de visado",
+      "ad": "Publicidad"
     },
     "beijing": {
-      "eyebrow": "City · 240h",
-      "name": "Beijing",
-      "tagline": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history.",
+      "name": "Pekín",
       "attractions": [
         {
-          "name": "The Forbidden City",
-          "ticket": "$8",
-          "hours": "3 h"
+          "name": "Ciudad Prohibida"
         },
         {
-          "name": "Mutianyu Great Wall",
-          "ticket": "$12",
-          "hours": "5 h"
+          "name": "Muralla (Mutianyu)"
         },
         {
-          "name": "Temple of Heaven",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "Templo del Cielo"
         },
         {
-          "name": "Summer Palace",
-          "ticket": "$7",
-          "hours": "3 h"
+          "name": "Palacio de Verano"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$30",
-          "food": "$18",
+          "tier": "Económico",
           "transport": "$6 (metro)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$95",
-          "food": "$40",
+          "tier": "Medio",
           "transport": "$10 (metro + DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$280",
-          "food": "$100",
+          "tier": "Lujo",
           "transport": "$14 (DiDi + taxi)"
         }
       ],
       "rail": [
         {
-          "to": "Shanghai",
-          "duration": "4.5 h"
+          "to": "Shanghái"
         },
         {
-          "to": "Xi'an",
-          "duration": "4.5 h"
+          "to": "Xi’an"
         },
         {
-          "to": "Chengdu",
-          "duration": "7.5 h"
+          "to": "Chengdú"
         },
         {
-          "to": "Guangzhou",
-          "duration": "8 h"
+          "to": "Cantón"
         }
       ],
-      "gettingInBody": "Beijing has two international airports: <strong>PEK</strong> (Capital) and <strong>PKX</strong> (Daxing). Both accept 144h and 240h transit permits. Subway and airport express connect both to downtown in 30–60 minutes.",
-      "ctaBudget": "Estimate my Beijing budget"
+      "eyebrow": "Ciudad · 240 h",
+      "tagline": "Capital imperial — Ciudad Prohibida, Muralla, 3 000 años.",
+      "gettingInBody": "Dos aeropuertos: <strong>PEK</strong> (Capital) y <strong>PKX</strong> (Daxing). Ambos aceptan 144/240 h. Metro/exprés 30–60 min.",
+      "ctaBudget": "Calcular mi presupuesto Pekín"
     },
     "shanghai": {
-      "eyebrow": "City · 240h",
-      "name": "Shanghai",
-      "tagline": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse.",
+      "name": "Shanghái",
       "attractions": [
         {
-          "name": "The Bund",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "el Bund"
         },
         {
-          "name": "Yu Garden",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "Jardín Yu"
         },
         {
-          "name": "Shanghai Tower",
-          "ticket": "$22",
-          "hours": "2 h"
+          "name": "Torre de Shanghái"
         },
         {
-          "name": "French Concession",
-          "ticket": "Free",
-          "hours": "3 h"
+          "name": "Concesión Francesa"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$35",
-          "food": "$20",
+          "tier": "Económico",
           "transport": "$5 (metro)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$110",
-          "food": "$45",
+          "tier": "Medio",
           "transport": "$9 (metro + DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$320",
-          "food": "$110",
+          "tier": "Lujo",
           "transport": "$13 (DiDi + taxi)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "Pekín"
         },
         {
-          "to": "Hangzhou",
-          "duration": "1 h"
+          "to": "Hangzhou"
         },
         {
-          "to": "Suzhou",
-          "duration": "0.5 h"
+          "to": "Suzhou"
         },
         {
-          "to": "Xi'an",
-          "duration": "6 h"
+          "to": "Xi’an"
         }
       ],
-      "gettingInBody": "Shanghai has two airports: <strong>PVG</strong> (Pudong, main international) and <strong>SHA</strong> (Hongqiao, mostly domestic + regional). Maglev from PVG reaches Longyang Rd in 8 minutes; from there, metro Line 2 takes you downtown in 50 minutes.",
-      "ctaBudget": "Estimate my Shanghai budget"
+      "eyebrow": "Ciudad · 240 h",
+      "tagline": "El Bund futurista — skyline, xiaolongbao, pulso 24/7.",
+      "gettingInBody": "Dos aeropuertos: <strong>PVG</strong> (Pudong, internacional) y <strong>SHA</strong> (Hongqiao, nacional). Maglev PVG → Longyang 8 min, luego metro 2 ~50 min al centro.",
+      "ctaBudget": "Calcular mi presupuesto Shanghái"
     },
     "guangzhou": {
-      "eyebrow": "City · 240h",
-      "name": "Guangzhou",
-      "tagline": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage.",
+      "name": "Cantón",
       "attractions": [
         {
-          "name": "Canton Tower",
-          "ticket": "$15",
-          "hours": "2 h"
+          "name": "Torre de Cantón"
         },
         {
-          "name": "Chen Clan Ancestral",
-          "ticket": "$3",
-          "hours": "1.5 h"
+          "name": "Academia del Clan Chen"
         },
         {
-          "name": "Pearl River Cruise",
-          "ticket": "$12",
-          "hours": "1.5 h"
+          "name": "Crucero por el río de las Perlas"
         },
         {
-          "name": "Shamian Island",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "Isla Shamian"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$28",
-          "food": "$15",
+          "tier": "Económico",
           "transport": "$5 (metro)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$80",
-          "food": "$35",
+          "tier": "Medio",
           "transport": "$8 (metro + DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$230",
-          "food": "$90",
+          "tier": "Lujo",
           "transport": "$12 (DiDi + taxi)"
         }
       ],
       "rail": [
         {
-          "to": "Hong Kong",
-          "duration": "1 h"
+          "to": "Hong Kong"
         },
         {
-          "to": "Shenzhen",
-          "duration": "0.5 h"
+          "to": "Shenzhen"
         },
         {
-          "to": "Beijing",
-          "duration": "8 h"
+          "to": "Pekín"
         },
         {
-          "to": "Shanghai",
-          "duration": "6.5 h"
+          "to": "Shanghái"
         }
       ],
-      "gettingInBody": "<strong>CAN</strong> (Baiyun) is Guangzhou's main airport. Metro Line 3 runs from the airport to Tiyu Xilu (Canton Tower area) in 45 minutes. Taxis take 30–40 minutes depending on traffic.",
-      "ctaBudget": "Estimate my Guangzhou budget"
+      "eyebrow": "Ciudad · 240 h",
+      "tagline": "Capital cantonesa — dim sum, río de las Perlas, Lingnan.",
+      "gettingInBody": "<strong>CAN</strong> (Baiyun) es el principal. Metro 3 a Tiyu Xilu (Torre de Cantón) ~45 min. Taxi 30–40 min según tráfico.",
+      "ctaBudget": "Calcular mi presupuesto Cantón"
     },
     "chengdu": {
-      "eyebrow": "City · 240h",
-      "name": "Chengdu",
-      "tagline": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace.",
+      "name": "Chengdú",
       "attractions": [
         {
-          "name": "Giant Panda Base",
-          "ticket": "$12",
-          "hours": "3 h"
+          "name": "Base del Panda Gigante"
         },
         {
-          "name": "Jinli Ancient Street",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "Calle Antigua Jinli"
         },
         {
-          "name": "Wuhou Shrine",
-          "ticket": "$5",
-          "hours": "2 h"
+          "name": "Santuario de Wuhou"
         },
         {
-          "name": "People's Park",
-          "ticket": "Free",
-          "hours": "1.5 h"
+          "name": "Parque del Pueblo"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$25",
-          "food": "$14",
+          "tier": "Económico",
           "transport": "$4 (metro)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$75",
-          "food": "$32",
+          "tier": "Medio",
           "transport": "$7 (metro + DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$220",
-          "food": "$85",
+          "tier": "Lujo",
           "transport": "$11 (DiDi + taxi)"
         }
       ],
       "rail": [
         {
-          "to": "Chongqing",
-          "duration": "1.5 h"
+          "to": "Chongqing"
         },
         {
-          "to": "Xi'an",
-          "duration": "3.5 h"
+          "to": "Xi’an"
         },
         {
-          "to": "Beijing",
-          "duration": "7.5 h"
+          "to": "Pekín"
         },
         {
-          "to": "Shanghai",
-          "duration": "9 h"
+          "to": "Shanghái"
         }
       ],
-      "gettingInBody": "Chengdu has two airports: <strong>CTU</strong> (Shuangliu, central, more flights) and <strong>TFU</strong> (Tianfu, newer). Metro Line 10 connects TFU to downtown in 40 minutes. CTU has Line 10 too, 25 minutes.",
-      "ctaBudget": "Estimate my Chengdu budget"
+      "eyebrow": "Ciudad · 240 h",
+      "tagline": "Hogar del panda gigante — cocina sichuanesa, casas de té, ritmo pausado.",
+      "gettingInBody": "Dos aeropuertos: <strong>CTU</strong> (Shuangliu, céntrico) y <strong>TFU</strong> (Tianfu, nuevo). Metro 10: TFU → centro ~40 min, CTU ~25 min.",
+      "ctaBudget": "Calcular mi presupuesto Chengdú"
     },
     "xian": {
-      "eyebrow": "City · 240h",
-      "name": "Xi'an",
-      "tagline": "Terracotta Warriors and the ancient Silk Road starting point.",
+      "name": "Xi’an",
       "attractions": [
         {
-          "name": "Terracotta Army",
-          "ticket": "$15",
-          "hours": "4 h"
+          "name": "Ejército de terracota"
         },
         {
-          "name": "City Wall (bike ride)",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "Muralla (en bici)"
         },
         {
-          "name": "Big Wild Goose Pagoda",
-          "ticket": "$5",
-          "hours": "1.5 h"
+          "name": "Gran Pagoda del Ganso Salvaje"
         },
         {
-          "name": "Muslim Quarter",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "Barrio Musulmán"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$22",
-          "food": "$12",
+          "tier": "Económico",
           "transport": "$4 (metro)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$70",
-          "food": "$30",
+          "tier": "Medio",
           "transport": "$7 (metro + DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$200",
-          "food": "$80",
+          "tier": "Lujo",
           "transport": "$10 (DiDi + taxi)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "Pekín"
         },
         {
-          "to": "Shanghai",
-          "duration": "6 h"
+          "to": "Shanghái"
         },
         {
-          "to": "Chengdu",
-          "duration": "3.5 h"
+          "to": "Chengdú"
         },
         {
-          "to": "Luoyang",
-          "duration": "1.5 h"
+          "to": "Luoyang"
         }
       ],
-      "gettingInBody": "<strong>XIY</strong> (Xianyang) is Xi'an's airport, about 40 km northwest. The airport intercity railway reaches Xi'an North Railway Station in 16 minutes — from there, metro Line 2 to Bell Tower takes another 20 minutes.",
-      "ctaBudget": "Estimate my Xi'an budget"
+      "eyebrow": "Ciudad · 240 h",
+      "tagline": "Ejército de terracota y punto de partida de la Ruta de la Seda.",
+      "gettingInBody": "<strong>XIY</strong> (Xianyang) está a ~40 km al noroeste. Tren lanzadera → Estación Norte 16 min, luego metro 2 a la Torre de la Campana ~20 min.",
+      "ctaBudget": "Calcular mi presupuesto Xi’an"
     }
   },
   "planner": {
@@ -694,10 +558,10 @@
     "dayLabel": "Día {n}",
     "addToCalc": "Añadir a la calculadora",
     "disclaimer": "Itinerario sugerido según tus datos. Horarios y precios reales varían — confirma antes de reservar.",
-    "breakdownTitle": "Want the full cost breakdown?",
-    "breakdownBody": "The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.",
-    "breakdownCtaBudget": "Open budget calculator",
-    "breakdownCtaVisa": "Check visa rules first"
+    "breakdownTitle": "¿Ver el desglose completo?",
+    "breakdownBody": "El planificador da una estimación. La calculadora afina cada partida.",
+    "breakdownCtaBudget": "Abrir calculadora",
+    "breakdownCtaVisa": "Primero revisa las reglas de visado"
   },
   "payment": {
     "title": "Paga como local en 5 minutos",
@@ -758,12 +622,12 @@
       "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
       "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
     ],
-    "setupTitle": "How to set it up",
-    "useTitle": "How to use it",
-    "ctaTitle": "Once payments are set, estimate the trip.",
-    "ctaBody": "Use the budget calculator to see what your days in China will cost in USD and CNY.",
-    "ctaBudget": "Open budget calculator",
-    "ctaTransport": "See transport options"
+    "setupTitle": "Cómo configurarlo",
+    "useTitle": "Cómo usarlo",
+    "ctaTitle": "Pagos listos — estima el viaje.",
+    "ctaBody": "La calculadora muestra el coste en USD y CNY.",
+    "ctaBudget": "Abrir calculadora",
+    "ctaTransport": "Ver transporte"
   },
   "transport": {
     "title": "Moverse por China",
@@ -866,11 +730,11 @@
       "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
       "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
     ],
-    "useTitle": "How to use it",
-    "ctaTitle": "Now you know how to move. Plan the route.",
-    "ctaBody": "Use the planner to combine cities, days, and interests. Get a recommended route and an estimated budget.",
-    "ctaPlanner": "Open planner",
-    "ctaBudget": "See budget"
+    "useTitle": "Cómo usarlo",
+    "ctaTitle": "Ya sabes moverte — planifica la ruta.",
+    "ctaBody": "El planificador combina ciudades, días e intereses — ruta + presupuesto.",
+    "ctaPlanner": "Abrir planificador",
+    "ctaBudget": "Ver presupuesto"
   },
   "footer": {
     "desc": "Guía independiente para viajeros en tránsito, apoyada por anuncios. No vendemos tours ni cobramos comisiones.",

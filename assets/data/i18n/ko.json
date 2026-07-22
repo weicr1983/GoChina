@@ -24,24 +24,20 @@
       "subtitle": "글이 아니라 도구를 만들었습니다. 슬라이더를 움직이면 답이 나옵니다.",
       "items": [
         {
-          "icon": "plane",
-          "title": "How do I enter?",
-          "text": "144 or 240 hour visa-free at 20+ airports. See eligible ports and required documents."
+          "title": "어떻게 입국하나요?",
+          "text": "144시간 또는 240시간 환승 무비자, 20개 이상 공항."
         },
         {
-          "icon": "card",
-          "title": "How do I pay?",
-          "text": "Bind your Visa or Mastercard to Alipay / WeChat Pay in 5 minutes. Cash and ATMs also work."
+          "title": "어떻게 결제하나요?",
+          "text": "5분 안에 Visa/Mastercard를 알리페이/위챗페이에 연결."
         },
         {
-          "icon": "train",
-          "title": "How do I move?",
-          "text": "High-speed rail, metro, DiDi ride-hailing, bike-share — all foreigner-friendly."
+          "title": "어떻게 이동하나요?",
+          "text": "고속철도, 지하철, 디디, 공유 자전거 — 모두 외국인 친화."
         },
         {
-          "icon": "wallet",
-          "title": "How much does it cost?",
-          "text": "Itemized budget calculator with per-city breakdown in USD and CNY."
+          "title": "얼마나 들어요?",
+          "text": "항목별 예산 계산기, USD/CNY 도시별 내역."
         }
       ]
     },
@@ -74,174 +70,132 @@
       "title": "도시부터 시작",
       "items": [
         {
-          "name": "Shanghai",
-          "tag": "Future skyline, dumplings, the Bund"
+          "name": "상하이",
+          "tag": "미래 스카이라인, 샤오롱바오, 와이탄"
         },
         {
-          "name": "Beijing",
-          "tag": "Forbidden City, Great Wall, hutongs"
+          "name": "베이징",
+          "tag": "자금성, 만리장성, 후퉁"
         },
         {
-          "name": "Chengdu",
-          "tag": "Pandas, Sichuan food, slow pace"
+          "name": "청두",
+          "tag": "판다, 쓰촨 요리, 여유"
         },
         {
-          "name": "Xi'an",
-          "tag": "Terracotta Warriors, Silk Road"
+          "name": "시안",
+          "tag": "병마용, 실크로드"
         }
       ]
     },
-    "btnReadDetails": "Read details →",
-    "btnVisa": "Visa guide →",
-    "btnPayment": "Payment guide →",
-    "btnTransport": "Transport guide →",
-    "btnOpenCalculator": "Open calculator →",
-    "btnOpen": "Open →",
-    "btnPreview": "Preview →"
+    "btnReadDetails": "자세히 보기 →",
+    "btnVisa": "비자 가이드 →",
+    "btnPayment": "결제 가이드 →",
+    "btnTransport": "교통 가이드 →",
+    "btnOpenCalculator": "계산기 열기 →",
+    "btnOpen": "열기 →",
+    "btnPreview": "미리보기 →"
   },
   "visa": {
     "title": "144 vs 240시간 무비자 환승",
     "subtitle": "두 정책 모두 사전 비자 신청 없이 중국 입국이 가능합니다. 차이는 체류 기간과 이동 범위.",
-    "compareTitle": "한눈에 비교",
+    "compareTitle": "나란히 비교",
     "compare": [
       {
-        "label": "Stay length",
-        "v144": "6 days",
-        "v240": "10 days"
+        "label": "滞在日数",
+        "v144": "6일",
+        "v240": "10일"
       },
       {
-        "label": "Coverage",
-        "v144": "Single designated region",
-        "v240": "20+ provinces, cross-region"
+        "label": "対象範囲",
+        "v144": "단일 지정 지역",
+        "v240": "20+ 성 횡단"
       },
       {
-        "label": "Best for",
-        "v144": "Short city breaks",
-        "v240": "Multi-city itineraries"
+        "label": "おすすめ",
+        "v144": "짧은 도심 휴가",
+        "v240": "여러 도시 일정"
       },
       {
-        "label": "Approval",
-        "v144": "~5–10 min at airport",
-        "v240": "~5–15 min at airport"
+        "label": "審査時間",
+        "v144": "약 5–10분(공항)",
+        "v240": "약 5–15분(공항)"
       },
       {
-        "label": "Documents",
-        "v144": "Passport, onward ticket",
-        "v240": "Passport, onward ticket, hotels"
+        "label": "必要書類",
+        "v144": "여권, 출국 항공권",
+        "v240": "여권, 항공권, 호텔"
       }
     ],
-    "eligiblePorts": "대상 입국 공항",
-    "portsIntro": "Both policies share most major airports. The list below is the union of 144h + 240h ports. Always check the latest list on the official site before booking.",
+    "eligiblePorts": "해당 입국 항구",
     "portsHeader": {
-      "code": "Code",
-      "airport": "Airport",
-      "h144": "144h",
-      "h240": "240h"
+      "code": "코드",
+      "airport": "공항",
+      "h144": "144시간",
+      "h240": "240시간"
     },
     "ports": [
       {
-        "code": "PEK",
-        "airport": "Beijing Capital",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "베이징 수도 국제공항"
       },
       {
-        "code": "PKX",
-        "airport": "Beijing Daxing",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "베이징 다싱 국제공항"
       },
       {
-        "code": "PVG",
-        "airport": "Shanghai Pudong",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "상하이 푸동 국제공항"
       },
       {
-        "code": "SHA",
-        "airport": "Shanghai Hongqiao",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "상하이 홍차오 국제공항"
       },
       {
-        "code": "CAN",
-        "airport": "Guangzhou Baiyun",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "광저우 바이윈 국제공항"
       },
       {
-        "code": "SZX",
-        "airport": "Shenzhen Bao'an",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "선전 바오안 국제공항"
       },
       {
-        "code": "CTU",
-        "airport": "Chengdu Shuangliu",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "청두 솽류 국제공항"
       },
       {
-        "code": "TFU",
-        "airport": "Chengdu Tianfu",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "청두 톈푸 국제공항"
       },
       {
-        "code": "XIY",
-        "airport": "Xi'an Xianyang",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "시안 셴양 국제공항"
       },
       {
-        "code": "KMG",
-        "airport": "Kunming Changshui",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "쿤밍 창수이 국제공항"
       },
       {
-        "code": "XMN",
-        "airport": "Xiamen Gaoqi",
-        "h144": "✓",
-        "h240": "✓"
+        "airport": "샤먼 가오치 국제공항"
       },
       {
-        "code": "WUH",
-        "airport": "Wuhan Tianhe",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "우한 톈허 국제공항"
       },
       {
-        "code": "TAO",
-        "airport": "Qingdao Jiaodong",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "칭다오 자오둥 국제공항"
       },
       {
-        "code": "DLC",
-        "airport": "Dalian Zhoushuizi",
-        "h144": "—",
-        "h240": "✓"
+        "airport": "다롄 쪼수이쯔 국제공항"
       }
     ],
-    "applyTitle": "공항에서 신청하는 법",
+    "applyTitle": "공항 신청 절차",
     "applySteps": [
-      "Arrive at an eligible international airport with your passport, onward ticket, and (if needed) a visa for your third destination.",
-      "At the transit counter, request the 144 / 240-hour visa-free transit permit. Border officers verify your documents in 5–15 minutes.",
-      "Collect your permit and enter China. Keep the paper permit with you throughout your stay — hotels will request it at check-in."
+      "해당 국제 공항 도착. 여권, 출국 항공권, (필요 시) 제3국 비자 준비.",
+      "환승 창구에서 144/240시간 환승 무비자 신청. 심사 5–15분.",
+      "허가증을 받아 입국. 체류 기간 동안 항상 지참, 호텔 체크인 시 제시."
     ],
     "tipsTitle": "실용 팁",
     "tips": [
-      "Departure must be from the same or an eligible port in the same region.",
-      "Your onward ticket must go to a third country / region, not back to your origin.",
-      "Hotel staff are required to register foreign guests — carry your passport at all times.",
-      "If you enter under 240h, you can now move between many adjacent provinces."
+      "출국은 같은 항구 또는 동일 지역의 대상 항구.",
+      "출국 항공권은 제3국/지역이며, 출발지로 돌아갈 수 없습니다.",
+      "호텔은 외국인 등록 의무. 여권 항상 휴대.",
+      "240시간 입국자는 인접 여러 성 사이 이동 가능."
     ],
-    "ctaTitle": "Once you know your visa, plan the trip.",
-    "ctaSubtitle": "Open the budget calculator to see what your days in China will actually cost.",
-    "ctaBudget": "Open budget calculator",
-    "ctaPlanner": "Try the planner",
-    "advertisement": "Advertisement"
+    "portsIntro": "두 정책은 대부분의 주요 공항을 공유. 아래 목록은 144·240h의 합집합. 예약 전 공식 최신 정보 확인.",
+    "ctaTitle": "비자를 정했으면 일정 계획.",
+    "ctaSubtitle": "예산 계산기로 중국 체류 일수 실제 비용 확인.",
+    "ctaBudget": "예산 계산기 열기",
+    "ctaPlanner": "일정 계획기 사용",
+    "advertisement": "광고"
   },
   "calculator": {
     "title": "여행 예산 계산기",
@@ -260,405 +214,315 @@
     "perCity": "도시별",
     "breakdown": "내역",
     "lines": {
-      "hotel": "Hotels",
-      "food": "Food & dining",
-      "transport": "Local transport",
-      "attraction": "Attractions",
-      "intercity": "High-speed rail",
-      "shopping": "Shopping",
-      "other": "Other"
+      "hotel": "숙박",
+      "food": "식비",
+      "transport": "시내 교통",
+      "attraction": "관광",
+      "intercity": "고속철도",
+      "shopping": "쇼핑",
+      "other": "기타"
     },
     "print": "인쇄",
     "reset": "초기화",
     "note": "2025-2026 Booking/Trip.com 평균 기준 추정. 계절에 따라 달라지므로 참고용으로만 사용하세요.",
-    "tripTitle": "Your trip",
-    "calcMethod": "How we calculate",
-    "calcBody": "We use 2025–2026 averages from Booking.com, Trip.com, and 12306 for high-speed rail. For travelers above 1, hotels are billed per room (1 room per 2 people); food, transport, attractions and rail tickets scale per person. Shopping and other costs are entered as per-person amounts and multiplied by your group size.",
-    "fxNote": "FX rate: 1 USD = 7.20 CNY (updated 2026-01-15). Actual bank rates will vary by 1–3%. Peak season (Chinese New Year, Golden Week) prices can rise 30–50%."
+    "tripTitle": "당신의 일정",
+    "calcMethod": "계산 방법",
+    "calcBody": "Booking.com, Trip.com, 12306의 2025–2026 평균 사용. 2인 이상은 숙박 1실 2인. 식비·교통·관광·철도는 인원 비례. 쇼핑 등은 1인당 입력 후 인원 곱.",
+    "fxNote": "환율: 1 USD = 7.20 CNY(2026-01-15). 은행 환율 1–3% 차이. 성수기 30–50% 상승."
   },
   "citiesPage": {
-    "title": "Pick a city, or a few.",
-    "subtitle": "Five gateway cities covered by both 144h and 240h policies. Tap any of them for visa rules, attractions, and a per-city cost breakdown.",
     "bj": {
-      "name": "Beijing",
-      "tag": "Forbidden City, Great Wall, hutongs"
+      "name": "베이징",
+      "tag": "자금성, 만리장성, 후퉁"
     },
     "sh": {
-      "name": "Shanghai",
-      "tag": "Future skyline, dumplings, the Bund"
+      "name": "상하이",
+      "tag": "미래 스카이라인, 샤오롱바오, 와이탄"
     },
     "gz": {
-      "name": "Guangzhou",
-      "tag": "Cantonese food, Pearl River, Lingnan culture"
+      "name": "광저우",
+      "tag": "광둥 요리, 주장강, 링난"
     },
     "cd": {
-      "name": "Chengdu",
-      "tag": "Pandas, Sichuan food, slow pace"
+      "name": "청두",
+      "tag": "판다, 쓰촨 요리, 여유"
     },
     "xa": {
-      "name": "Xi'an",
-      "tag": "Terracotta Warriors, Silk Road"
+      "name": "시안",
+      "tag": "병마용, 실크로드"
     },
-    "ad": "Advertisement"
+    "title": "도시를 하나, 또는 몇 개.",
+    "subtitle": "144·240h 정책 모두 해당되는 5개 관문 도시. 탭하여 비자·명소·예산 확인.",
+    "ad": "광고"
   },
   "city": {
     "common": {
-      "mustSee": "Must-see",
       "mustSeeHeaders": {
-        "place": "Place",
-        "ticket": "Ticket",
-        "hours": "Hours"
+        "place": "명소",
+        "ticket": "입장료",
+        "hours": "관람 시간"
       },
-      "budgetTitle": "Daily budget (per person)",
       "budgetHeaders": {
-        "tier": "Tier",
-        "hotel": "Hotel / night",
-        "food": "Food / day",
-        "transport": "Local transport"
+        "tier": "등급",
+        "hotel": "호텔/박",
+        "food": "식비/일",
+        "transport": "시내 교통"
       },
-      "railTitle": "Onward by high-speed rail",
       "railHeaders": {
-        "to": "To",
-        "duration": "Duration"
+        "to": "목적지",
+        "duration": "소요 시간"
       },
-      "gettingIn": "Getting in",
-      "ctaVisa": "Read the visa guide",
-      "ad": "Advertisement"
+      "mustSee": "필수 관광지",
+      "budgetTitle": "일일 예산(1인)",
+      "railTitle": "다음 도시 고속철도",
+      "gettingIn": "공항에서 시내로",
+      "ctaVisa": "비자 가이드 보기",
+      "ad": "광고"
     },
     "beijing": {
-      "eyebrow": "City · 240h",
-      "name": "Beijing",
-      "tagline": "The imperial capital — Forbidden City, Great Wall, and 3,000 years of history.",
+      "name": "베이징",
       "attractions": [
         {
-          "name": "The Forbidden City",
-          "ticket": "$8",
-          "hours": "3 h"
+          "name": "자금성"
         },
         {
-          "name": "Mutianyu Great Wall",
-          "ticket": "$12",
-          "hours": "5 h"
+          "name": "무단옹 만리장성"
         },
         {
-          "name": "Temple of Heaven",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "천단"
         },
         {
-          "name": "Summer Palace",
-          "ticket": "$7",
-          "hours": "3 h"
+          "name": "이화원"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$30",
-          "food": "$18",
-          "transport": "$6 (metro)"
+          "tier": "저가",
+          "transport": "$6(지하철)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$95",
-          "food": "$40",
-          "transport": "$10 (metro + DiDi)"
+          "tier": "중급",
+          "transport": "$10(지하철+DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$280",
-          "food": "$100",
-          "transport": "$14 (DiDi + taxi)"
+          "tier": "럭셔리",
+          "transport": "$14(DiDi+택시)"
         }
       ],
       "rail": [
         {
-          "to": "Shanghai",
-          "duration": "4.5 h"
+          "to": "상하이"
         },
         {
-          "to": "Xi'an",
-          "duration": "4.5 h"
+          "to": "시안"
         },
         {
-          "to": "Chengdu",
-          "duration": "7.5 h"
+          "to": "청두"
         },
         {
-          "to": "Guangzhou",
-          "duration": "8 h"
+          "to": "광저우"
         }
       ],
-      "gettingInBody": "Beijing has two international airports: <strong>PEK</strong> (Capital) and <strong>PKX</strong> (Daxing). Both accept 144h and 240h transit permits. Subway and airport express connect both to downtown in 30–60 minutes.",
-      "ctaBudget": "Estimate my Beijing budget"
+      "eyebrow": "도시 · 240h",
+      "tagline": "천년 제국의 수도 — 자금성, 만리장성, 3000년 역사.",
+      "gettingInBody": "베이징에는 국제공항 2개: <strong>PEK</strong>(수도)와 <strong>PKX</strong>(다싱). 144/240h 환승 무비자 모두 가능. 지하철·공항 급행 30–60분.",
+      "ctaBudget": "베이징 예산 추정"
     },
     "shanghai": {
-      "eyebrow": "City · 240h",
-      "name": "Shanghai",
-      "tagline": "The futuristic Bund — skyline, dumplings, and a 24/7 pulse.",
+      "name": "상하이",
       "attractions": [
         {
-          "name": "The Bund",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "와이탄"
         },
         {
-          "name": "Yu Garden",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "위위안(豫園)"
         },
         {
-          "name": "Shanghai Tower",
-          "ticket": "$22",
-          "hours": "2 h"
+          "name": "상하이 타워"
         },
         {
-          "name": "French Concession",
-          "ticket": "Free",
-          "hours": "3 h"
+          "name": "프렌치 코르세"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$35",
-          "food": "$20",
-          "transport": "$5 (metro)"
+          "tier": "저가",
+          "transport": "$5(지하철)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$110",
-          "food": "$45",
-          "transport": "$9 (metro + DiDi)"
+          "tier": "중급",
+          "transport": "$9(지하철+DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$320",
-          "food": "$110",
-          "transport": "$13 (DiDi + taxi)"
+          "tier": "럭셔리",
+          "transport": "$13(DiDi+택시)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "베이징"
         },
         {
-          "to": "Hangzhou",
-          "duration": "1 h"
+          "to": "항저우"
         },
         {
-          "to": "Suzhou",
-          "duration": "0.5 h"
+          "to": "쑤저우"
         },
         {
-          "to": "Xi'an",
-          "duration": "6 h"
+          "to": "시안"
         }
       ],
-      "gettingInBody": "Shanghai has two airports: <strong>PVG</strong> (Pudong, main international) and <strong>SHA</strong> (Hongqiao, mostly domestic + regional). Maglev from PVG reaches Longyang Rd in 8 minutes; from there, metro Line 2 takes you downtown in 50 minutes.",
-      "ctaBudget": "Estimate my Shanghai budget"
+      "eyebrow": "도시 · 240h",
+      "tagline": "미래적 와이탄 — 스카이라인, 샤오롱바오, 24시간 도시.",
+      "gettingInBody": "상하이에는 공항 2개: <strong>PVG</strong>(푸동, 주 국제선)와 <strong>SHA</strong>(홍차오, 국내선 중심). PVG에서 마그레브 8분, 이어 지하철 2호선 약 50분.",
+      "ctaBudget": "상하이 예산 추정"
     },
     "guangzhou": {
-      "eyebrow": "City · 240h",
-      "name": "Guangzhou",
-      "tagline": "Cantonese food capital — dim sum, river cruises, and Lingnan heritage.",
+      "name": "광저우",
       "attractions": [
         {
-          "name": "Canton Tower",
-          "ticket": "$15",
-          "hours": "2 h"
+          "name": "광저우 타워"
         },
         {
-          "name": "Chen Clan Ancestral",
-          "ticket": "$3",
-          "hours": "1.5 h"
+          "name": "첸씨 종족회관"
         },
         {
-          "name": "Pearl River Cruise",
-          "ticket": "$12",
-          "hours": "1.5 h"
+          "name": "주장강 크루즈"
         },
         {
-          "name": "Shamian Island",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "샤먼 아일랜드"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$28",
-          "food": "$15",
-          "transport": "$5 (metro)"
+          "tier": "저가",
+          "transport": "$5(지하철)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$80",
-          "food": "$35",
-          "transport": "$8 (metro + DiDi)"
+          "tier": "중급",
+          "transport": "$8(지하철+DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$230",
-          "food": "$90",
-          "transport": "$12 (DiDi + taxi)"
+          "tier": "럭셔리",
+          "transport": "$12(DiDi+택시)"
         }
       ],
       "rail": [
         {
-          "to": "Hong Kong",
-          "duration": "1 h"
+          "to": "홍콩"
         },
         {
-          "to": "Shenzhen",
-          "duration": "0.5 h"
+          "to": "선전"
         },
         {
-          "to": "Beijing",
-          "duration": "8 h"
+          "to": "베이징"
         },
         {
-          "to": "Shanghai",
-          "duration": "6.5 h"
+          "to": "상하이"
         }
       ],
-      "gettingInBody": "<strong>CAN</strong> (Baiyun) is Guangzhou's main airport. Metro Line 3 runs from the airport to Tiyu Xilu (Canton Tower area) in 45 minutes. Taxis take 30–40 minutes depending on traffic.",
-      "ctaBudget": "Estimate my Guangzhou budget"
+      "eyebrow": "도시 · 240h",
+      "tagline": "광둥 요리의 도시 — 딤섬, 주장강, 링난 문화.",
+      "gettingInBody": "<strong>CAN</strong>(바이윈)이 광저우 주 공항. 지하철 3호선으로체육서로(광저우 타워) 약 45분. 택시는 30–40분(교통 상황).",
+      "ctaBudget": "광저우 예산 추정"
     },
     "chengdu": {
-      "eyebrow": "City · 240h",
-      "name": "Chengdu",
-      "tagline": "Home of the giant panda — Sichuan food, tea houses, and relaxed pace.",
+      "name": "청두",
       "attractions": [
         {
-          "name": "Giant Panda Base",
-          "ticket": "$12",
-          "hours": "3 h"
+          "name": "자이언트 판다 연구 기지"
         },
         {
-          "name": "Jinli Ancient Street",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "진리(锦里) 고가"
         },
         {
-          "name": "Wuhou Shrine",
-          "ticket": "$5",
-          "hours": "2 h"
+          "name": "우허우 사당"
         },
         {
-          "name": "People's Park",
-          "ticket": "Free",
-          "hours": "1.5 h"
+          "name": "런민(人民) 공원"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$25",
-          "food": "$14",
-          "transport": "$4 (metro)"
+          "tier": "저가",
+          "transport": "$4(지하철)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$75",
-          "food": "$32",
-          "transport": "$7 (metro + DiDi)"
+          "tier": "중급",
+          "transport": "$7(지하철+DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$220",
-          "food": "$85",
-          "transport": "$11 (DiDi + taxi)"
+          "tier": "럭셔리",
+          "transport": "$11(DiDi+택시)"
         }
       ],
       "rail": [
         {
-          "to": "Chongqing",
-          "duration": "1.5 h"
+          "to": "충칭"
         },
         {
-          "to": "Xi'an",
-          "duration": "3.5 h"
+          "to": "시안"
         },
         {
-          "to": "Beijing",
-          "duration": "7.5 h"
+          "to": "베이징"
         },
         {
-          "to": "Shanghai",
-          "duration": "9 h"
+          "to": "상하이"
         }
       ],
-      "gettingInBody": "Chengdu has two airports: <strong>CTU</strong> (Shuangliu, central, more flights) and <strong>TFU</strong> (Tianfu, newer). Metro Line 10 connects TFU to downtown in 40 minutes. CTU has Line 10 too, 25 minutes.",
-      "ctaBudget": "Estimate my Chengdu budget"
+      "eyebrow": "도시 · 240h",
+      "tagline": "자이언트 판다의 고향 — 쓰촨 요리, 찻집, 여유.",
+      "gettingInBody": "청두에는 공항 2개: <strong>CTU</strong>(솽류, 도심, 노선多)와 <strong>TFU</strong>(톈푸, 신축). 지하철 10호선으로 TFU~시내 약 40분, CTU~약 25분.",
+      "ctaBudget": "청두 예산 추정"
     },
     "xian": {
-      "eyebrow": "City · 240h",
-      "name": "Xi'an",
-      "tagline": "Terracotta Warriors and the ancient Silk Road starting point.",
+      "name": "시안",
       "attractions": [
         {
-          "name": "Terracotta Army",
-          "ticket": "$15",
-          "hours": "4 h"
+          "name": "병마용"
         },
         {
-          "name": "City Wall (bike ride)",
-          "ticket": "$6",
-          "hours": "2 h"
+          "name": "성벽(자전거)"
         },
         {
-          "name": "Big Wild Goose Pagoda",
-          "ticket": "$5",
-          "hours": "1.5 h"
+          "name": "대안탑(대야안탑)"
         },
         {
-          "name": "Muslim Quarter",
-          "ticket": "Free",
-          "hours": "2 h"
+          "name": "후이민(회민) 거리"
         }
       ],
       "budget": [
         {
-          "tier": "Budget",
-          "hotel": "$22",
-          "food": "$12",
-          "transport": "$4 (metro)"
+          "tier": "저가",
+          "transport": "$4(지하철)"
         },
         {
-          "tier": "Mid",
-          "hotel": "$70",
-          "food": "$30",
-          "transport": "$7 (metro + DiDi)"
+          "tier": "중급",
+          "transport": "$7(지하철+DiDi)"
         },
         {
-          "tier": "Luxury",
-          "hotel": "$200",
-          "food": "$80",
-          "transport": "$10 (DiDi + taxi)"
+          "tier": "럭셔리",
+          "transport": "$10(DiDi+택시)"
         }
       ],
       "rail": [
         {
-          "to": "Beijing",
-          "duration": "4.5 h"
+          "to": "베이징"
         },
         {
-          "to": "Shanghai",
-          "duration": "6 h"
+          "to": "상하이"
         },
         {
-          "to": "Chengdu",
-          "duration": "3.5 h"
+          "to": "청두"
         },
         {
-          "to": "Luoyang",
-          "duration": "1.5 h"
+          "to": "뤄양"
         }
       ],
-      "gettingInBody": "<strong>XIY</strong> (Xianyang) is Xi'an's airport, about 40 km northwest. The airport intercity railway reaches Xi'an North Railway Station in 16 minutes — from there, metro Line 2 to Bell Tower takes another 20 minutes.",
-      "ctaBudget": "Estimate my Xi'an budget"
+      "eyebrow": "도시 · 240h",
+      "tagline": "병마용과 고대 실크로드의 시작점.",
+      "gettingInBody": "<strong>XIY</strong>(셴양)은 시안 공항, 시내 북서쪽 약 40km. 공항 도시철도로 시안북역 16분, 지하철 2호선 종루(종로) 약 20분.",
+      "ctaBudget": "시안 예산 추정"
     }
   },
   "planner": {
@@ -691,13 +555,13 @@
     "noMatch": "비자와 취향에 맞는 도시가 없습니다. 240시간을 선택하거나 취향을 추가해 보세요.",
     "visaNote144": "144시간은 베이징·상하이·광저우에서만 입국 가능하며 해당 구역 내 체류.",
     "visaNote240": "240시간은 16개 이상의 항구에서 입국 가능, 대부분의 성 이동 가능.",
-    "dayLabel": "Day {n}",
+    "dayLabel": "{n}일차",
     "addToCalc": "계산기에 추가",
     "disclaimer": "입력 기반 제안 일정입니다. 실제 열차 시간, 운영 시간, 요금은 다를 수 있으니 예약 전 확인하세요.",
-    "breakdownTitle": "Want the full cost breakdown?",
-    "breakdownBody": "The planner gives you a quick estimate. The calculator lets you tweak every line — hotel, food, transport, shopping.",
-    "breakdownCtaBudget": "Open budget calculator",
-    "breakdownCtaVisa": "Check visa rules first"
+    "breakdownTitle": "전체 비용 내역이 필요하세요?",
+    "breakdownBody": "플래너는 빠른 추정. 계산기에서 모든 항목을 조정하세요(숙박·식비·교통·쇼핑).",
+    "breakdownCtaBudget": "예산 계산기 열기",
+    "breakdownCtaVisa": "먼저 비자 규칙 확인"
   },
   "payment": {
     "title": "5분 만에 현지인처럼 결제",
@@ -758,12 +622,12 @@
       "Bind your card to BOTH Alipay and WeChat before you leave home. Some merchants only accept one. Setting up takes 5 minutes; troubleshooting in a Beijing hutong takes an hour.",
       "Always choose to pay in the LOCAL currency (CNY) when offered. 'Pay in your home currency' (Dynamic Currency Conversion) usually costs an extra 3–5%."
     ],
-    "setupTitle": "How to set it up",
-    "useTitle": "How to use it",
-    "ctaTitle": "Once payments are set, estimate the trip.",
-    "ctaBody": "Use the budget calculator to see what your days in China will cost in USD and CNY.",
-    "ctaBudget": "Open budget calculator",
-    "ctaTransport": "See transport options"
+    "setupTitle": "설정 방법",
+    "useTitle": "사용 방법",
+    "ctaTitle": "결제 설정 후 일정을 추정하세요.",
+    "ctaBody": "예산 계산기로 중국 체류 일수 비용을 USD/CNY로 확인하세요.",
+    "ctaBudget": "예산 계산기 열기",
+    "ctaTransport": "교통 옵션 보기"
   },
   "transport": {
     "title": "중국 내 이동",
@@ -866,11 +730,11 @@
       "Install a VPN BEFORE you arrive. Even with roaming, most Western apps are inaccessible without one. ExpressVPN, Astrill, and LetsVPN are commonly used.",
       "Hotel WiFi and most cafe WiFi also require a Chinese phone number to receive a one-time SMS code. Plan B: eSIM with China data."
     ],
-    "useTitle": "How to use it",
-    "ctaTitle": "Now you know how to move. Plan the route.",
-    "ctaBody": "Use the planner to combine cities, days, and interests. Get a recommended route and an estimated budget.",
-    "ctaPlanner": "Open planner",
-    "ctaBudget": "See budget"
+    "useTitle": "사용 방법",
+    "ctaTitle": "이동 방법을 알았으니, 경로를 계획하세요.",
+    "ctaBody": "플래너로 도시·일수·관심사를 조합해 추천 경로와 예산을 받으세요.",
+    "ctaPlanner": "플래너 열기",
+    "ctaBudget": "예산 보기"
   },
   "footer": {
     "desc": "환승 여행자를 위한 독립적, 광고 기반 중국 가이드. 투어 판매나 수수료 없음.",
